@@ -1,0 +1,27 @@
+.contentleft{
+    width: 64.2%;
+    margin-right: 0;
+    margin-left: 300px;
+    height: 210px;
+    border: 2px solid gray;
+    float: left;
+}
+.contentleft1{
+    width: 80px;
+    padding-left: 8px;
+    
+    float: left;
+}
+.contentleft2{
+    padding-left:3px;
+    height:20px;
+    padding-top: 10px;
+    float: left;;
+}
+.contentleft3{
+    height: 200px;
+    width: 150px;
+    margin-left: 80px;
+    border-left: 3px solid rgb(106, 186, 223);
+    background-image: url('../点餐3.jpg') 
+}

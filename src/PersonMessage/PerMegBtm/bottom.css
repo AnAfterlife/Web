@@ -1,0 +1,85 @@
+.bottom{
+    height:30em;
+    width: auto;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(253, 253, 253);
+}
+
+.bottomleft{
+    height: 12em;
+    width: 20em;
+    padding: 0;
+    margin: 2em 0 0 0;
+   float: left;
+   clear: both;
+    border: solid 1px  rgba(199, 179, 179, 0.329);
+}
+
+.p{
+    height: 10em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottomtop1{
+    height: 35px;
+    width: auto;
+    margin: 0;
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+    border: solid 1px  rgba(199, 179, 179, 0.329);
+    font-size: 20px;
+}
+
+.bottomtop2{
+    height: 50px;
+    width: auto;
+    margin: 0em;
+    padding: 0 16px;
+    display: flex;
+    justify-content: space-between;
+    border: solid 1px  rgba(199, 179, 179, 0.329);
+    font-size: 24px;
+}
+
+.btm1{
+    height: 2em;
+    width: auto;
+    margin:  1em 0;
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+  
+    
+}
+
+.btm2{
+    height: 2em;
+    width: auto;
+    margin: 1em 0;
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+.lst{
+    height:20em;
+    width: auto;
+    margin: 2em 0;
+    padding: 0;
+    
+}
+.car{
+    height: 10em;
+    width: auto;
+    margin:  0;
+    padding: 4em 0;
+    text-align: center;
+  
+}

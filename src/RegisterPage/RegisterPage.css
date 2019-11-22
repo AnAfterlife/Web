@@ -1,0 +1,52 @@
+
+.login1{
+    height: 1000px;
+    width: 92px;
+    position: absolute !important;
+    float: left;
+}
+.login2{
+    background-image: url(./../背景图1.jpg);
+    height: 1000px;
+    width: 1879;
+}
+.loginheader{
+    height:40px ;
+    width: 280px;
+    float: right;
+    margin-top: 30px;
+    margin-right: 730px;
+    font-size: 35PX;
+    font-style: unset ;
+}
+.biaoge{
+    height: 350px;
+    width: 520px;
+    float: left;
+    margin-top: 200px;
+    margin-left: 768px;
+}
+.tg{
+    width: 450px;
+    height: 50px;
+   
+}
+.tg1{
+    font-size: 20px;
+    font-style: normal;
+    text-align: center;
+}
+.submit{
+    border: 1px #3083ff solid;
+    border-radius:4px;
+    background-color:#3487ff;
+    box-shadow:0 5px 8px 0 rgba(24,95,255,.1);
+    color:#fff;
+    text-align:center;
+    font-weight:lighter;
+    background-image:linear-gradient(0deg,#398bff,#3083ff);
+    width:250px;
+    height:60px;
+    margin:40px 0 8px;
+    font-size:24px
+}

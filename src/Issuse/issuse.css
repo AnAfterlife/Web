@@ -1,0 +1,48 @@
+.total{
+    height: 57em;
+    width: auto;
+    margin: 0;
+    padding: 0;
+    background: url('./../img/pic0.jpg') no-repeat;
+    background-size:cover;
+}
+
+.intotal{
+    text-align: center;
+    
+    height: 90%;
+    width:45%;
+    margin:0 25%;
+    padding: 0;
+    
+   
+    background-color: rgba(248, 245, 245, 0.938);
+}
+
+.header{
+    
+    height: 8em;
+    width: auto;
+    margin: 0px 10em ;
+    padding: 10px 0;
+    border: solid 1px  rgba(199, 179, 179, 0.329);
+}
+
+.left{
+    float: left;
+}
+
+.middle{
+    text-align: center;
+    margin: 13em 10em 0 10em;
+    padding: 0px;
+    height: 17em;
+    width: auto;
+    border: solid 1px  rgba(199, 179, 179, 0.329);
+    
+}
+
+.bottom{
+    margin: 2em 0 0 0;
+    padding: 0;
+}

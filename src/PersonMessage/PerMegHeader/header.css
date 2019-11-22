@@ -1,0 +1,79 @@
+
+
+.header{
+    height:14em;
+    width: auto;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(253, 253, 253);
+}
+
+.headleft{
+    height: 14em;
+    width: 15em;
+    padding: 20px 0;
+    margin: 0em;
+   text-align: center;
+    float: left;
+    clear: both;
+    border: solid 1px  rgba(199, 179, 179, 0.329);
+    background: url(./../../img/pic0.jpg) no-repeat;
+    background-size: cover;
+    line-height: 2em;
+    color: aliceblue;
+}
+
+.headright{
+    height: 14em;
+    width: auto;
+    padding: 0;
+    margin: 2em 0 0 0;
+   
+    border: solid 1px  rgba(199, 179, 179, 0.329);
+}
+
+
+.headtop{
+    height: 35px;
+    width: auto;
+    margin: 0;
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+    border: solid 1px  rgba(199, 179, 179, 0.329);
+    font-size: 20px;
+}
+
+.headbtm1{
+    height: 2em;
+    width: auto;
+    margin:  0;
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+  
+    
+}
+
+.headbtm2{
+    height: 2em;
+    width: auto;
+    margin: 1em 0;
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+.headbtm3{
+    height: 2em;
+    width: auto;
+    margin: 2em 0;
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+   
+    
+}

@@ -1,0 +1,24 @@
+.pic{
+    height: 984px;
+    width: 1789px;
+}
+.pic1{
+    height: 984px;
+    width: 1789px;
+    background-image: url('./../注册1.jpg')
+}
+.pic2{
+    height: 984px;
+    width: 1789px;
+    background-image: url('./../注册2.jpg')
+}
+.pic3{
+    height: 984px;
+    width: 1789px;
+    background-image: url('./../注册3.jpg')
+}
+.pic4{
+    height: 984px;
+    width: 1789px;
+    background-image: url('./../注册4.jpg')
+}

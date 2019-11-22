@@ -1,0 +1,36 @@
+.login{
+    height: 984px;
+    width: 1879px;
+    background-image: url('./../注册2.jpg')
+} 
+.loginheader{
+    text-align: center;
+    height:40px ;
+    padding-top: 40px;
+    font-size: 30PX;
+}
+.loginheader1{
+    width: 450px;
+    margin-left: 715px;
+    margin-top: 200px;
+}
+.biaoge{
+    margin-left: auto;
+    margin-right: auto;
+}
+.tg{
+    width: 450px;
+    height: 50px;
+    border: 2px solid rgb(7, 8, 7);
+   
+}
+.tg1{
+    width: 300px;
+    height: 40px;
+    border: 2px solid rgb(10, 12, 10);
+}
+.tijiao{
+    width: 50px;
+    height: 30px;
+    border: 2px solid rgb(8, 10, 8);
+}

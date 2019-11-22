@@ -1,0 +1,27 @@
+.total{
+    height: 57em;
+    width: auto;
+    margin: 0;
+    padding: 0;
+    background: url('./../img/pic0.jpg') no-repeat;
+    background-size:cover;
+}
+
+.intotal{
+    height: 90%;
+    width:50%;
+    margin:0 25%;
+    padding:2em 2em; 
+    background-color:white;
+}
+
+.top{
+    height: 30em;
+    margin: 0;
+    padding: 0;
+}
+.bottom{
+    height: 10em;
+    margin: 0;
+    padding: 0;
+}

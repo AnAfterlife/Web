@@ -1,0 +1,35 @@
+.total{
+    height: 57em;
+    width: auto;
+    margin: 0;
+    padding: 0;
+    background: url('./../../img/pic0.jpg') no-repeat;
+    background-size:cover;
+}
+
+.intotal{
+    height: 90%;
+    width:50%;
+    margin:0 25%;
+    padding:2em 2em; 
+    background-color:white;
+}
+
+.module{
+    height: 4em;
+    padding: 0;
+    margin: 0 0 1em 0;
+}
+
+.di{
+    height: 10em;
+    padding: 0;
+    margin: 0 0 1em 0;
+}
+
+.bb{
+    height: 5em;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}

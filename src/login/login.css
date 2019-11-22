@@ -1,0 +1,39 @@
+.login{
+    height: 984px;
+    width: 1879px;
+    background-image:url('./../注册4.jpg')
+}
+.loginheader{
+    text-align: center;
+    height:40px ;
+    padding-top: 30px;
+    font-size: 30PX;
+}
+.loginheader1{
+    width: 450px;
+    margin-left: 715px;
+    margin-top: 160px;
+}
+.biaoge{
+    margin-left: auto;
+    margin-right: auto;
+}
+.tg{
+    width: 450px;
+    height: 50px;
+   
+}
+.submit{
+    border: 1px #3083ff solid;
+    border-radius:4px;
+    background-color:#3487ff;
+    box-shadow:0 5px 8px 0 rgba(24,95,255,.1);
+    color:#fff;
+    text-align:center;
+    font-weight:lighter;
+    background-image:linear-gradient(0deg,#398bff,#3083ff);
+    width:250px;
+    height:60px;
+    margin:40px 0 8px;
+    font-size:24px
+}
