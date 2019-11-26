@@ -1,50 +1,83 @@
-.toparea2{
-    height: 22px;
-    width: 400px;
-    padding-left: 100px;
-    background-color:rgb(168, 218, 168);
-    float: left;
-}
-.top1{
-    width: 1860px;
-    height: 1080px;
-    background-color: rgb(253, 253, 253);
-    
-}
-.toparea3{
-    width: 100%;
-    display: flex;
-    position: fixed;
 
-}
-.toparea{
-    padding-left:80px;
-    height: 22px;
-    width: 10%;
-    background-color:rgb(168, 218, 168);
+.top1{
+    width:100%;
+    
+   
+    
 }
 .toparea1{
-    
-    height: 22px;
-    width: 80%;
-    background-color:rgb(168, 218, 168);
-   padding-left: 850px;
+    font-size: 14px;
+    height: 80px;
+    width: 100%;
+    display: block;
+    position: fixed;
+    background-color:#ffff;
    
-    list-style: none;
 }
-.toparea1 li{
+
+.toparea2{
+    
+    height: 80%;
+   
+    width:30%;
+    margin-top: 20px;
+    margin-left: 120px;
     
     float: left;
-    margin-left:40px ;
+    display: flex;
+    position: absolute;
+    
+}
+.toparea2 li{
+    list-style: none;
+    padding: 0 12px;
+}
+.toparea3{
+   
+    float:right;
+    height: 100%;
+    width: 50%;
+    text-align: right;
+    padding: 15px 0;
+
+}
+.toparea4{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: block;
+    
+    padding: 12px 0;
+}
+.toparea5{
+    width: 82%;
+    height: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.toparea3 ul{
+    height: 100%;
+    display: block;
+    margin-left:40px;
+    float: right;
+    overflow: hidden;
+    list-style: none;
+}
+.toparea3 li{
+    float: left;
+    padding: 0 12px;
 }
 
 .searchpage{
     width: 100%;
     height: 260px;
+    display: flex;
+    
     background-image: url('../search.jpg');
 }
 .searchpage1{
-    width: 15%;
+    width: 20%;
     height: 260px;
     font-size: 3em;
     font-style: initial;
@@ -53,10 +86,14 @@
     float: left;
 }
 .searchpage2{
-    width: 1250px;
+    width: 40%;
     height: 230px;
     float: right;
 
+}
+.searchpage3{
+    width: 30%;
+    height: 230px;
 }
 .list1{
     width: 361px;
