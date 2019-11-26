@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Login from './login/login';
-import RegisterPage from './RegisterPage/RegisterPage';
+import Login from './RegisterPage/RegisterPage';
+import RegisterPage from './login/login';
 import FindPage from './FindPage/findpage';
 import FindPage1 from './FindPage1/findpage1';
 import Menuspage from './MenusPage/menuspage';
@@ -31,7 +31,7 @@ class IndexPage extends React.Component{
                 </div> */}
                 <BrowserRouter>
                     <Switch>
-                        <Route path='/' exact component={homepage}></Route>
+                        <Route path='/' exact component={HomePage1}></Route>
                         <Route path='/login' exact component={Login}></Route>
                         <Route path='/RegisterPage' exact component={RegisterPage}></Route>
                         <Route path='/findpage' exact component={FindPage}></Route>

@@ -1,25 +1,29 @@
 import React from 'react'
-import LunBoTu from './../LunBoTu1/lunbotu1'
-import HomePage from './../HomePage1/homepage1'
-import {Link} from 'react-router-dom'
-import {Icon} from 'antd'
-var RegisterPagecss = require('./RegisterPage.css')
+import { Button } from 'antd';
+import{Link} from 'react-router-dom';
+var RegisterPagecss= require('./RegisterPage.css')
 
-export default class register extends React.Component{
+export default class RegisterPage extends React.Component{
+
     render(){
+
         return(
-            <div>
-                <div className={RegisterPagecss.login1}><LunBoTu></LunBoTu></div>
-                <div className={RegisterPagecss.login2}>
-                    <div className={RegisterPagecss.loginheader}>校园服务系统登录</div>
-                    <div className={RegisterPagecss.login}>
-                    <table className={RegisterPagecss.biaoge} >
-                    <p><input prefix={<Icon type="user" ></Icon>} type="text" name="username" placeholder="用户名" className={RegisterPagecss.tg}></input></p>
-                    <p><input type="text" name="password" placeholder="密码" className={RegisterPagecss.tg} prefix={<Icon type="unlock" />}></input></p>
-                    <p><Link to='/homepage1'><input className={RegisterPagecss.submit} type="submit" value="登录"></input></Link><span><input type="checkbox" onClick= ""></input><lable className={RegisterPagecss.checkbox}>我已阅读并同意相关条款</lable></span></p>
-                    <p className={RegisterPagecss.tg1}><Link to='/login'>立即注册</Link></p>
-                    </table>
-                    </div>
+            <div className={RegisterPagecss.register}>
+                <div>
+                <div className={RegisterPagecss.registerheader}>
+
+                    校园服务系统注册
+
+                </div>
+                <div className={RegisterPagecss.registerheader1}>
+                <table className={RegisterPagecss.biaoge} >
+                <p><input type="text" name="username" placeholder="用户名" className={RegisterPagecss.tg}></input></p>
+                <p><input type="text" name="password" placeholder="密码" className={RegisterPagecss.tg}></input></p>
+                <p><input type="text" name="password" placeholder="确认密码"className={RegisterPagecss.tg}></input></p>
+                <p><input type="text" name="email" placeholder="邮箱"className={RegisterPagecss.tg}></input></p>
+                <p><Link to='/RegisterPage'><Button className={RegisterPagecss.submit} type="button" >注册</Button></Link><span><input type="checkbox" onClick= ""></input><lable className={RegisterPagecss.checkbox}>我已阅读并同意相关条款</lable></span></p>
+                </table>
+                </div>
                 </div>
             </div>
         )

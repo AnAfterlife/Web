@@ -9,20 +9,16 @@ export default class homepage extends React.Component{
     render(){
         return(
             <div className={homepagecss.top1}>
-                <div className={homepagecss.toparea5}>
-                <div className={homepagecss.toparea4}>Hi,欢迎来到校园服务系统</div>
-                <div className={homepagecss.toparea}>
-                     <Link to='/RegisterPage'>立即登录</Link>
-                     </div>
+                <div className={homepagecss.toparea3}>
+                <div className={homepagecss.toparea2}>Hi,欢迎来到校园购买网</div>
+                <div className={homepagecss.toparea}><Link to='/HomePage1'>返回首页</Link></div>
                     <div className={homepagecss.toparea1}>
-                        <Link to='/login'>注册</Link>
-                        <div className={homepagecss.toparea2}>
-                            <a><Link to='/wallet'>我的信息</Link></a>
-                        
-                            <div className={homepagecss.toparea3}>
-                                <a><Link to='/PersonMessage/permeg'>我的订单</Link></a>
-                            </div>
-                        </div>
+                           <li> <Link to='/login'>注册</Link></li> 
+                           <li>  <Link to='/RegisterPage'>立即登录</Link></li> 
+                           <li>  <Link to='/wallet'>我的信息</Link></li> 
+                           <li>  <Link to='/PersonMessage/permeg'>我的订单</Link></li> 
+                           <li>  <Link to='/'>购物车</Link></li>
+                      
                     </div>
                 </div>
                 <div className={homepagecss.searchpage}>

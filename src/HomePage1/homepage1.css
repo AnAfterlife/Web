@@ -1,7 +1,7 @@
-.toparea4{
+.toparea2{
     height: 22px;
     width: 400px;
-    padding-left: 200px;
+    padding-left: 100px;
     background-color:rgb(168, 218, 168);
     float: left;
 }
@@ -9,34 +9,35 @@
     width: 1860px;
     height: 1080px;
     background-color: rgb(253, 253, 253);
+    
 }
-.toparea5{
+.toparea3{
+    width: 100%;
     display: flex;
+    position: fixed;
+
 }
 .toparea{
+    padding-left:80px;
     height: 22px;
-    width: 100px;
+    width: 10%;
     background-color:rgb(168, 218, 168);
 }
 .toparea1{
+    
     height: 22px;
     width: 80%;
     background-color:rgb(168, 218, 168);
-    float: right;
+   padding-left: 850px;
+   
+    list-style: none;
 }
-.toparea2{
-    height: 22px;
-    width: 20%;
-    background-color:rgb(168, 218, 168);
-    float: right;
-    justify-content: space-around;
-}
-.toparea3{
-    width: 65%;
-    height: 22px;
-    float: right;
+.toparea1 li{
     
+    float: left;
+    margin-left:40px ;
 }
+
 .searchpage{
     width: 100%;
     height: 260px;

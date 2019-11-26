@@ -1,40 +1,27 @@
-
-.login1{
-    height: 1000px;
-    width: 92px;
-    position: absolute !important;
-    float: left;
+.register{
+    height: 984px;
+    width: 1879px;
+    background-image:url('./../注册4.jpg')
 }
-.login2{
-    background-image: url(./../背景图1.jpg);
-    height: 1000px;
-    width: 1879;
-}
-.loginheader{
+.registerheader{
+    text-align: center;
     height:40px ;
-    width: 280px;
-    float: right;
-    margin-top: 30px;
-    margin-right: 730px;
-    font-size: 35PX;
-    font-style: unset ;
+    padding-top: 30px;
+    font-size: 30PX;
+}
+.registerheader1{
+    width: 450px;
+    margin-left: 715px;
+    margin-top: 160px;
 }
 .biaoge{
-    height: 350px;
-    width: 520px;
-    float: left;
-    margin-top: 200px;
-    margin-left: 768px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .tg{
     width: 450px;
     height: 50px;
    
-}
-.tg1{
-    font-size: 20px;
-    font-style: normal;
-    text-align: center;
 }
 .submit{
     border: 1px #3083ff solid;
