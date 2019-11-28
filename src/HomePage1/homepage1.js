@@ -1,8 +1,11 @@
 import React from 'react'
+
 import{Link} from 'react-router-dom';
 import Input  from './../Input/input';
-import { Icon } from 'antd';
+import { Icon, Spin } from 'antd';
 import LubBoTu from './../LunBoTu/lunbotu'
+// import {Avatar} from 'antd'
+import photo from './../img/user.png'
 
 var homepagecss=require('./homepage1.css')
 export default class homepage extends React.Component{
@@ -13,8 +16,9 @@ export default class homepage extends React.Component{
                     <div className={homepagecss.toparea4}>
                         <div className={homepagecss.toparea5}>
                 <div className={homepagecss.toparea2}>
-                   <li><Link to='/'>客服服务</Link> </li> 
-                   <li> <Link to='/HomePage1'>返回首页</Link></li> 
+                   <a href="/">客服服务 </a>
+                   <Spin>|</Spin>
+                  <a href="/">返回首页</a>
                     </div>
                     
                     <div className={homepagecss.toparea3}>
@@ -30,15 +34,12 @@ export default class homepage extends React.Component{
                     </div>
                 </div>
                 <div className={homepagecss.searchpage}>
-                        <div className={homepagecss.searchpage1}>
-                            校园服务系统
-                        </div>
-                        <div className={homepagecss.searchpage2}>
-                            <Input></Input>
-                        </div>
-                        <div className={homepagecss.searchpage3}>
-                            哈哈
-                        </div>
+                      <div className={homepagecss.search1}>
+                      <div className={homepagecss.searchpage1}>购一购</div>
+                      <div className={homepagecss.searchpage2}><Input></Input> </div>
+                      <div className={homepagecss.searchpage3}><div className={homepagecss.search2}><div className={homepagecss.search3}><div><img src={photo}></img></div><a href="/login" className={homepagecss.btn}>请登录</a><a href="/RegisterPage">免费注册</a></div></div></div>
+                     
+                      </div>
                 </div>
                 <div className={homepagecss.list1}>
                     <div className={homepagecss.list2}>服务种类</div>
