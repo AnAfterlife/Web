@@ -41,17 +41,27 @@ export default class homepage extends React.Component{
                      
                       </div>
                 </div>
-                <div className={homepagecss.list1}>
-                    <div className={homepagecss.list2}>服务种类</div>
-                    <div className={homepagecss.list3}><Icon type="coffee" style={{ fontSize: '30px', color: '#09130a' }}/><Link to='/menuspage'>点餐</Link></div>
-                    <div className={homepagecss.list4}><Icon type="highlight" style={{ fontSize: '30px', color: '#09130a' }}/><Link to='/menuspage'>兼职</Link></div>
-                    <div className={homepagecss.list5}><Icon type="laptop" style={{ fontSize: '30px', color: '#09130a' }}/><Link to='/menuspage'>二手</Link></div>
-                    <div className={homepagecss.list6}><Icon type="car" style={{ fontSize: '30px', color: '#09130a' }}/><Link to='/menuspage'>跑腿</Link></div>
-                    <div className={homepagecss.list7}><Icon type="read" style={{ fontSize: '30px', color: '#09130a' }}/><Link to='/menuspage'>代课</Link></div>
-                    
+                
+                <div className={homepagecss.all}>  
+                <div className={homepagecss.one}>
+                        <div className={homepagecss.list1}>              
+                <div className={homepagecss.list2}>二手分类</div>
+                 <div className={homepagecss.list3}><Icon type="coffee" style={{ fontSize: '30px', color: '#09130a' }}/><Link to='/menuspage'>点餐</Link></div>
+                 <div className={homepagecss.list4}><Icon type="highlight" style={{ fontSize: '30px', color: '#09130a' }}/><Link to='/menuspage'>兼职</Link></div>
+                <div className={homepagecss.list5}><Icon type="laptop" style={{ fontSize: '30px', color: '#09130a' }}/><Link to='/menuspage'>二手</Link></div>
+                 <div className={homepagecss.list6}><Icon type="car" style={{ fontSize: '30px', color: '#09130a' }}/><Link to='/menuspage'>跑腿</Link></div>
+                <div className={homepagecss.list7}><Icon type="read" style={{ fontSize: '30px', color: '#09130a' }}/><Link to='/menuspage'>代课</Link></div> 
                 </div>
+                
+                <div className={homepagecss.two}>
+                <div className={homepagecss.tuh}><div className={homepagecss.tuh1}><a>首页</a><a>最新商品</a><a>商品推荐</a><a>活动商品</a></div></div>
                 <div className={homepagecss.tu1}><LubBoTu></LubBoTu></div>
                 <div className={homepagecss.tu2}></div>
+                </div>
+                <div className={homepagecss.three}><div></div></div>
+                </div>
+               
+                </div>
             </div>
         )
     }

@@ -10,7 +10,7 @@
     height: 80px;
     width: 100%;
     display: block;
-    position: fixed;
+    position: absolute;
     background-color:gold;
 }
 .toparea2 {
@@ -29,9 +29,9 @@
 
 
  
-
+/* 
 .toparea2 ::after {
-	position: absolute;
+    position: absolute;
 	top: 30%;
     width: 11%;
     
@@ -54,7 +54,7 @@
 	-webkit-transform: translateY(0px);
 	-moz-transform: translateY(0px);
 	transform: translateY(0px);
-}
+} */
 
 
 /* li:hover::before, a:hover::after { position: absolute; }
@@ -67,7 +67,7 @@ li:hover::after { content: "\5D"; right:  -10px; } */
     width: 80%;
     text-align: right;
     padding: 15px 0;
-
+   
 }
 .toparea4{
     width: 100%;
@@ -125,13 +125,16 @@ li:hover::after { content: "\5D"; right:  -10px; } */
 .searchpage2{
     width: 50%;
     
+    
 }
 .searchpage3{
+
     width: 20%;
     height: 200px;
     border-radius: 5px;
     background-color:#fff;
     margin-top: 35px;
+    margin-right: 150px;
      
 }
 
@@ -147,6 +150,7 @@ li:hover::after { content: "\5D"; right:  -10px; } */
   
 }
 .search3{
+   
     margin: auto;
     width: 70px;
     height: 160px;
@@ -171,83 +175,125 @@ li:hover::after { content: "\5D"; right:  -10px; } */
     margin-bottom: 15px;
     border-radius: 3px;
 }
+.all{
+    width: 100%;
+    height: 800px;
+    display: block;
+    position: absolute;
+}
 
 .list1{
-    width: 361px;
+    position: absolute;
+    width: 20%;
     height: 720px;
-    background-color: rgb(130, 163, 53);
-    float: left;
+    display: flex;
+    flex-direction: column;
 }
 .list2{
-    width: 361px;
-    height: 40px;
+     width: 100%;
+    height: 60px;
     font-size: 25px;
+    padding: 10px 0;
     text-align: center;
+    border-radius: 20px;
     border: 1px solid rgb(162, 170, 163);
     background-color: rgb(32, 170, 50);
 }
 .list3{
     height: 136px;
-    width: 361px;
+    width: 100%;
     border: 1px solid rgb(162, 170, 163);
     text-align: center;
     font-size: 30px;
     background-color: rgb(73, 73, 85, 0.7);
+    border-radius: 20px;
 }
 .list3{
     height: 136px;
-    width: 361px;
+    width: 100%;
     border: 1px solid rgb(162, 170, 163);
     text-align: center;
     font-size: 30px;
+    border-radius: 20px;
     background-color: whitesmoke;
 }
 .list4{
     height: 136px;
-    width: 361px;
+    width: 100%;
     border: 1px solid #8f9c90;
     text-align: center;
     font-size: 30px;
+    border-radius: 20px;
     background-color: whitesmoke;
 }
 .list5{
     height: 136px;
-    width: 361px;
+    width: 100%;
     border: 1px solid rgb(162, 170, 163);
     text-align: center;
     font-size: 30px;
+    border-radius: 20px;
     background-color: whitesmoke;
 }
 .list6{
     height: 136px;
-    width: 361px;
+    width: 100%;
     border: 1px solid rgb(162, 170, 163);
     text-align: center;
     font-size: 30px;
+    border-radius: 20px;
     background-color: whitesmoke;
 }
 .list7{
     height: 136px;
-    width: 361px;
+    width: 100%;
     border: 1px solid rgb(162, 170, 163);
     text-align: center;
     font-size: 30px;
+    border-radius: 20px;
     background-color: whitesmoke;
+}
+.two{
+    position: absolute;
+    margin-left: 20%;
+    height: 100%;
+    width: 60%;
+    flex-direction: column;
+    display: flex;
+}
+.tuh{
+    
+    height: 60px;
+    width: 100%;
+}
+.tuh1{
+    font-size: 24px;
+
+    padding: 10px;
+    
+}
+.tuh1 a{
+    color: black;
+   
+    background-color: aqua;
+    border-radius: 5px;
+    margin-left: 190px;
 }
 .tu1{
     height: 450px;
-    width: 1200px;
-    float: left;
-    margin-left: 440px;
-    position: absolute !important;
+    width: 100%;
 }
+
 .tu2{
     height: 300px;
-    width: 1200px;
+    width: 100%;
     background-image: url(./../主页6.jpg);
     float: left;
     margin-top: 470px;
-    margin-left: 440px;
+   
     position: absolute;
     
+}
+.three{
+    margin-left: 80%;
 }
