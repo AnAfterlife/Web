@@ -45,7 +45,7 @@ export default class homepage extends React.Component{
                 <div className={homepagecss.all}>  
                 <div className={homepagecss.one}>
                         <div className={homepagecss.list1}>              
-                <div className={homepagecss.list2}>二手分类</div>
+                <div className={homepagecss.list2}><div className={homepagecss.list2a}>二手分类</div></div>
                  <div className={homepagecss.list3}><Icon type="coffee" style={{ fontSize: '30px', color: '#09130a' }}/><Link to='/menuspage'>点餐</Link></div>
                  <div className={homepagecss.list4}><Icon type="highlight" style={{ fontSize: '30px', color: '#09130a' }}/><Link to='/menuspage'>兼职</Link></div>
                 <div className={homepagecss.list5}><Icon type="laptop" style={{ fontSize: '30px', color: '#09130a' }}/><Link to='/menuspage'>二手</Link></div>
@@ -54,13 +54,18 @@ export default class homepage extends React.Component{
                 </div>
                 
                 <div className={homepagecss.two}>
-                <div className={homepagecss.tuh}><div className={homepagecss.tuh1}><a>首页</a><a>最新商品</a><a>商品推荐</a><a>活动商品</a></div></div>
+                <div className={homepagecss.tuh}><div className={homepagecss.tuh1}><a href='/' className={homepagecss.btntwo}>首页</a><a className={homepagecss.btntwo}>最新商品</a><a className={homepagecss.btntwo}>商品推荐</a><a className={homepagecss.btntwo}>活动商品</a></div></div>
                 <div className={homepagecss.tu1}><LubBoTu></LubBoTu></div>
                 <div className={homepagecss.tu2}></div>
                 </div>
-                <div className={homepagecss.three}><div></div></div>
+                
+                <div className={homepagecss.three}><div className={homepagecss.three1}><div className={homepagecss.three2}>消息</div></div><div className={homepagecss.three3}><div className={homepagecss.three4}>哈哈</div></div></div>
                 </div>
-               
+                </div>
+                <div className={homepagecss.bottom}>
+                
+                <div className={homepagecss.bottoma}><dic className={homepagecss.bottoma1}></dic></div>
+                <div className={homepagecss.bottomb}></div>
                 </div>
             </div>
         )

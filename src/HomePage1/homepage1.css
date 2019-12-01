@@ -1,9 +1,9 @@
 
 .top1{
     width:100%;
+    height: 100%;
     position: absolute;
    
-    
 }
 .toparea1{
     font-size: 16px;
@@ -180,24 +180,33 @@ li:hover::after { content: "\5D"; right:  -10px; } */
     height: 800px;
     display: block;
     position: absolute;
+    
 }
-
+.one{
+    width: 100%;
+    height: 100%;
+}
 .list1{
     position: absolute;
     width: 20%;
-    height: 720px;
+    height: 800px;
     display: flex;
     flex-direction: column;
 }
 .list2{
      width: 100%;
-    height: 60px;
+    height:8%;
     font-size: 25px;
     padding: 10px 0;
     text-align: center;
+    background-color:  aqua;
+}
+.list2a{
+    height: 100%;
+    width: 211px;
+    margin: auto;
+    background-color: #fff;
     border-radius: 20px;
-    border: 1px solid rgb(162, 170, 163);
-    background-color: rgb(32, 170, 50);
 }
 .list3{
     height: 136px;
@@ -260,40 +269,110 @@ li:hover::after { content: "\5D"; right:  -10px; } */
     width: 60%;
     flex-direction: column;
     display: flex;
+    clear: both;
+
 }
 .tuh{
     
-    height: 60px;
+    height: 8%;
     width: 100%;
 }
 .tuh1{
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
     font-size: 24px;
-
+    background-color: aqua;
     padding: 10px;
     
 }
-.tuh1 a{
-    color: black;
-   
-    background-color: aqua;
-    border-radius: 5px;
-    margin-left: 190px;
+
+
+.btntwo{
+    
+    width: 211px;
+    height: px;
+    text-align: center;
+    display: block;
+    font-size: 24px;
+    transition: 0.5s;
+    color: #bf095f;
+    border: 1px solid #bf095f;
+    border-radius: 20px;
+}
+.btntwo:hover {
+    transition: 0.5s;
+    color: #ffffff;
+     background: #bf095f;
 }
 .tu1{
-    height: 450px;
+    height: 50%;
     width: 100%;
 }
 
 .tu2{
-    height: 300px;
+    height: 30%;
     width: 100%;
     background-image: url(./../主页6.jpg);
     float: left;
-    margin-top: 470px;
    
-    position: absolute;
+  
     
 }
 .three{
+    height: 100%;
+    width: 20%;
     margin-left: 80%;
+    
+}
+.three1{
+    font-size: 24px;
+    padding: 10px 0;
+    text-align: center;
+    height: 8%;
+    width: 100%;
+    background-color: aqua;
+}.three2{
+    margin: auto;
+    width: 211px;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 20px;
+}
+.three3{
+    width: 100%;
+    height:92%;
+}
+.three4{
+    
+    text-align: center;
+    margin: 100px auto;
+    width: 60%;
+    height: 60%;
+    border-radius: 100px;
+    border: 1px solid black;
+}
+.bottom{
+    width: 100%;
+    height: 400px;
+    margin-top: 800px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+.bottoma{
+    width: 100%;
+    height: 60%;
+    display: flex;
+}
+.bottoma1{
+    width: 100%;
+    height: 100%;
+    padding: 20px 40px;
+}
+.bottomb{
+    width: 100%;
+    height: 40%;
+    
+    background-color: black;
 }
