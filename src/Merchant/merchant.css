@@ -14,8 +14,8 @@
     height: 1000px;
 }
 .header1{
-    background-color: red;
-    height: 98px;
+    background-color: rgb(48, 106, 214);
+    height:98px;
     width: 228px;
     padding-top: 4px;
     padding-left: 4px;
@@ -30,7 +30,7 @@
     height: 80px;
     width: 228px;
     border: 2px solid rgb(175, 162, 162)    ;
-    background-color: rgb(201, 212, 221);
+    background-color: rgb(224, 216, 99);
 }
 .header3{
     width: 903px;
@@ -54,7 +54,7 @@
     width: 900px;
     height: 166px;
     border: 1px solid rgb(156, 155, 156);
-    background-color: aliceblue;
+    background-color: alic eblue;
 }
 .header7{
     width: 900px;
