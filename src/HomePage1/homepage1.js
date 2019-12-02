@@ -5,6 +5,7 @@ import Input  from './../Input/input';
 import { Icon, Spin } from 'antd';
 import LubBoTu from './../LunBoTu/lunbotu'
 // import {Avatar} from 'antd'
+import photo1 from './../img/shopping.png'
 import photo from './../img/user.png'
 
 var homepagecss=require('./homepage1.css')
@@ -35,7 +36,7 @@ export default class homepage extends React.Component{
                 </div>
                 <div className={homepagecss.searchpage}>
                       <div className={homepagecss.search1}>
-                      <div className={homepagecss.searchpage1}>购一购</div>
+                      <div className={homepagecss.searchpage1}><img src={photo1} className={homepagecss.logo}></img> 购一购</div>
                       <div className={homepagecss.searchpage2}><Input></Input> </div>
                       <div className={homepagecss.searchpage3}><div className={homepagecss.search2}><div className={homepagecss.search3}><div><img src={photo}></img></div><a href="/login" className={homepagecss.btn}>请登录</a><a href="/RegisterPage">免费注册</a></div></div></div>
                      
@@ -46,11 +47,11 @@ export default class homepage extends React.Component{
                 <div className={homepagecss.one}>
                         <div className={homepagecss.list1}>              
                 <div className={homepagecss.list2}><div className={homepagecss.list2a}>二手分类</div></div>
-                 <div className={homepagecss.list3}><Icon type="coffee" style={{ fontSize: '30px', color: '#09130a' }}/><Link to='/menuspage'>点餐</Link></div>
-                 <div className={homepagecss.list4}><Icon type="highlight" style={{ fontSize: '30px', color: '#09130a' }}/><Link to='/menuspage'>兼职</Link></div>
-                <div className={homepagecss.list5}><Icon type="laptop" style={{ fontSize: '30px', color: '#09130a' }}/><Link to='/menuspage'>二手</Link></div>
-                 <div className={homepagecss.list6}><Icon type="car" style={{ fontSize: '30px', color: '#09130a' }}/><Link to='/menuspage'>跑腿</Link></div>
-                <div className={homepagecss.list7}><Icon type="read" style={{ fontSize: '30px', color: '#09130a' }}/><Link to='/menuspage'>代课</Link></div> 
+                 <div className={homepagecss.list3}><div className={homepagecss.list3a}>电子产品</div><Icon type="coffee" style={{ fontSize: '30px', color: '#09130a' }}/><Link to='/menuspage'>点餐</Link></div>
+                 <div className={homepagecss.list4}><div className={homepagecss.list3a}>电子产品</div><Icon type="highlight" style={{ fontSize: '30px', color: '#09130a' }}/><Link to='/menuspage'>兼职</Link></div>
+                <div className={homepagecss.list5}><div className={homepagecss.list3a}>电子产品</div><Icon type="laptop" style={{ fontSize: '30px', color: '#09130a' }}/><Link to='/menuspage'>二手</Link></div>
+                 {/* <div className={homepagecss.list6}><Icon type="car" style={{ fontSize: '30px', color: '#09130a' }}/><Link to='/menuspage'>跑腿</Link></div>
+                <div className={homepagecss.list7}><Icon type="read" style={{ fontSize: '30px', color: '#09130a' }}/><Link to='/menuspage'>代课</Link></div>  */}
                 </div>
                 
                 <div className={homepagecss.two}>

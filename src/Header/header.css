@@ -1,12 +1,98 @@
 .header{
     width: 100%;
-    height: 30px;
+    height: 80px;
     line-height: 30px;
     background: white;
 }
-.right{
+.toparea1{
+    font-size: 16px;
+    height: 80px;
+    width: 100%;
+    
+    position: absolute;
+    background-color:gold;
+}
+.toparea2 {
+    width: 30%;
+    padding: 0 0 10px;
+    
+    height: 80%;
+    color: #566473;
+    width:30%;
+    margin-top: 20px;
+    
+    display: flex;
+    position: absolute;
+  
+}
+
+
+ 
+/* 
+.toparea2 ::after {
+    position: absolute;
+	top: 30%;
+    width: 11%;
+    
+	height: 1px;
+	background: #fff;
+	content: '';
+	opacity: 0;
+	-webkit-transition: height 0.3s, opacity 0.3s, -webkit-transform 0.3s;
+	-moz-transition: height 0.3s, opacity 0.3s, -moz-transform 0.3s;
+	transition: height 0.3s, opacity 0.3s, transform 0.3s;
+	-webkit-transform: translateY(-10px);
+	-moz-transform: translateY(-10px);
+	transform: translateY(-10px);
+}
+
+.toparea2 :hover::after,
+.toparea2 :focus::after {
+	height: 3px;
+	opacity: 1;
+	-webkit-transform: translateY(0px);
+	-moz-transform: translateY(0px);
+	transform: translateY(0px);
+} */
+
+
+/* li:hover::before, a:hover::after { position: absolute; }
+li:hover::before { content: "\5B"; left: -10px; }
+li:hover::after { content: "\5D"; right:  -10px; } */
+.toparea3{
+   
+    float:right;
+    height: 100%;
+    width: 80%;
+    text-align: right;
+    padding: 15px 0;
+   
+}
+.toparea4{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: block;
+    
+    padding: 12px 0;
+}
+.toparea5{
+    width: 82%;
+    height: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.toparea3 ul{
+    height: 100%;
+    display: block;
+    margin-left:40px;
     float: right;
+    overflow: hidden;
+    list-style: none;
 }
-.left{
+.toparea3 li{
     float: left;
+    padding: 0 12px;
 }
+

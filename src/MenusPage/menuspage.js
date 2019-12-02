@@ -8,15 +8,25 @@ import picture3 from './../跑腿1.jpg'
 import picture4 from './../二手1.jpg'
 import picture5 from './../兼职1.jpg'
 import {Link} from 'react-router-dom'
+import {BrowserRouter,Switch} from 'react-router-dom'
+
 import Input  from './../Input/input';
+
 import Issuse from './../Issuse/issuse'
+
+import Header from '../Header/header';
+
  var MenuspageCss =require('./menuspage.css');
 
 class Menuspage extends React.Component {
     render() {
         return (
+            
             <div>
-
+                <BrowserRouter>
+                <Header></Header>
+                
+                </BrowserRouter>
                 <div className={MenuspageCss.toparea}> <Link to='/RegisterPage'>立即登录</Link></div>
                     <div className={MenuspageCss.toparea1}>
                         <Link to='/login'>注册</Link>
