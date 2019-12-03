@@ -3,7 +3,7 @@ import { Carousel } from 'antd';
 import picture1 from './../主页1.jpg'
 import picture2 from './../主页2.jpg'
 import picture3 from './../主页3.jpg'
-import picture4 from './../主页4.jpg'
+import picture4 from './../主页3.jpg'
 var LunBoTu1 = require('./lunbotu.css')
 export default class LunBoTu extends React.Component{
     render(){
@@ -21,7 +21,7 @@ export default class LunBoTu extends React.Component{
       <h3></h3>
     </div>
     <div>
-    <img src={picture4 }/>
+    <img src={picture3 }/>
       <h3></h3>
     </div>
   </Carousel>

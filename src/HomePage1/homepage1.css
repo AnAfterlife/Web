@@ -142,7 +142,6 @@ li:hover::after { content: "\5D"; right:  -10px; } */
     height: 200px;
     border-radius: 5px;
     background-color:#fff;
-    
     margin-right: 150px;
      
 }
