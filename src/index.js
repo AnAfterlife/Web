@@ -4,7 +4,7 @@ import Login from './RegisterPage/RegisterPage';
 import RegisterPage from './login/login';
 import FindPage from './FindPage/findpage';
 import FindPage1 from './FindPage1/findpage1';
-import Menuspage from './MenusPage/menuspage';
+import Goods from './Goods/goods';
 import {BrowserRouter,Route,Switch,Redirect} from 'react-router-dom';
 import Merchant from './Merchant/merchant';
 import HomePage1 from './HomePage1/homepage1';
@@ -36,7 +36,7 @@ class IndexPage extends React.Component{
                         <Route path='/RegisterPage' exact component={RegisterPage}></Route>
                         <Route path='/findpage' exact component={FindPage}></Route>
                         <Route path='/findpage1' exact component={FindPage1}></Route>
-                        <Route path="/menuspage" exact component={Menuspage}></Route>
+                        <Route path="/goods" exact component={Goods}></Route>
                         <Route path="/merchant" exact component={Merchant}></Route>
                         <Route path="/homepage1" exact component={HomePage1}></Route>
                         <Route path="/PersonMessage/permeg" exact component={Header}></Route>
