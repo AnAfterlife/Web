@@ -12,7 +12,7 @@ export default class Header extends React.Component{
                         <div className={HeaderCss.toparea5}>
                 <div className={HeaderCss.toparea2}>
                    <a href="/">客服服务 </a>
-                   <Spin>|</Spin>
+                   <spin>|</spin>
                   <a href="/">返回首页</a>
                     </div>
                     

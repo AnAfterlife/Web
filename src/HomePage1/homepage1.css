@@ -100,8 +100,9 @@ li:hover::after { content: "\5D"; right:  -10px; } */
 .searchpage{
    
     width: 100%;
-    height: 268px;
-    background-image: url('../search.jpg');
+    height: 200px;
+    background-image: url('../img/heh.jpg');
+    
 }
 .logo{
     width: 100px;
@@ -114,7 +115,7 @@ li:hover::after { content: "\5D"; right:  -10px; } */
 .search1{
     width: 100%;
     height: 100%;
-    padding:20px 20px;
+    padding:0 20px;
     display: flex;
     justify-content: space-between;
     
@@ -125,7 +126,7 @@ li:hover::after { content: "\5D"; right:  -10px; } */
     font-size: 3em;
     font-style: oblique;
     font-family: serif;
-    padding-top: 96px;
+    padding-top: 50px;
     margin: 0 40px;
     overflow: hidden;
     
@@ -141,7 +142,7 @@ li:hover::after { content: "\5D"; right:  -10px; } */
     height: 200px;
     border-radius: 5px;
     background-color:#fff;
-    margin-top: 35px;
+    
     margin-right: 150px;
      
 }
@@ -199,13 +200,15 @@ li:hover::after { content: "\5D"; right:  -10px; } */
     width: 20%;
     height: 800px;
     display: flex;
+    
     flex-direction: column;
 }
 .list2{
      width: 100%;
     height:8%;
     font-size: 25px;
-    padding: 10px 0;
+    padding: 10px ;
+    
     text-align: center;
     background-color:  aqua;
 }
@@ -220,23 +223,31 @@ li:hover::after { content: "\5D"; right:  -10px; } */
 .list3{
     height: 30%;
     width: 100%;
-    border: 1px solid rgb(162, 170, 163);
-    text-align: center;
+    border: 0.5px solid rgb(102, 193, 235);
+    
     font-size: 30px;
     
     background-color: whitesmoke;
 }
 .list3a{
+    color:blueviolet;
+    text-align: center;
     font-size: 20px;
     width: 100%;
     height: 30%;
-    border: 1px solid rgb(162, 170, 163);
+    border: 0.5px solid rgb(102, 193, 235);
     padding: 10px;
+}
+.list3b li{
+    display: inline-block;
+    
+    line-height: 20px;
+    list-style: none;
 }
 .list4{
     height: 30%;
     width: 100%;
-    border: 1px solid #8f9c90;
+    border:0.5px solid rgb(44, 202, 62);
     text-align: center;
     font-size: 30px;
    
@@ -248,7 +259,7 @@ li:hover::after { content: "\5D"; right:  -10px; } */
     border: 1px solid rgb(162, 170, 163);
     text-align: center;
     font-size: 30px;
-    border-radius: 20px;
+    
     background-color: whitesmoke;
 }
 /* .list6{

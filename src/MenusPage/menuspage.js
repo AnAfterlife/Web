@@ -27,17 +27,7 @@ class Menuspage extends React.Component {
                 <Header></Header>
                 
                 </BrowserRouter>
-                <div className={MenuspageCss.toparea}> <Link to='/RegisterPage'>立即登录</Link></div>
-                    <div className={MenuspageCss.toparea1}>
-                        <Link to='/login'>注册</Link>
-                        <div className={MenuspageCss.toparea2}>
-                            <a><Link to='/issuse'>我要发布</Link></a>
-                        
-                            <div className={MenuspageCss.toparea3}>
-                                <a><Link to='/PersonMessage/permeg'>我的订单</Link></a>
-                            </div>
-                        </div>
-                    </div>
+               
                     <div className={MenuspageCss.searchpage}>
                         <div className={MenuspageCss.searchpage1}>
                             校园服务系统

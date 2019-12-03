@@ -1,25 +1,24 @@
 .header{
     width: 100%;
-    height: 80px;
+    height: 30px;
     line-height: 30px;
-    background: white;
+    background-color:gold;
 }
 .toparea1{
     font-size: 16px;
     height: 80px;
     width: 100%;
-    
     position: absolute;
-    background-color:gold;
+   
 }
 .toparea2 {
     width: 30%;
-    padding: 0 0 10px;
+    
     
     height: 80%;
     color: #566473;
     width:30%;
-    margin-top: 20px;
+   
     
     display: flex;
     position: absolute;
@@ -65,7 +64,7 @@ li:hover::after { content: "\5D"; right:  -10px; } */
     height: 100%;
     width: 80%;
     text-align: right;
-    padding: 15px 0;
+   
    
 }
 .toparea4{
@@ -74,7 +73,7 @@ li:hover::after { content: "\5D"; right:  -10px; } */
     overflow: hidden;
     display: block;
     
-    padding: 12px 0;
+   
 }
 .toparea5{
     width: 82%;
