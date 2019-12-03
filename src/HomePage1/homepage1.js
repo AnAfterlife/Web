@@ -47,9 +47,9 @@ export default class homepage extends React.Component{
                 <div className={homepagecss.one}>
                         <div className={homepagecss.list1}>              
                 <div className={homepagecss.list2}><div className={homepagecss.list2a}>二手分类</div></div>
-                 <div className={homepagecss.list3}><div className={homepagecss.list3a}>电子产品</div><Icon type="coffee" style={{ fontSize: '30px', color: '#09130a' }}/><Link to='/menuspage'>点餐</Link></div>
-                 <div className={homepagecss.list4}><div className={homepagecss.list3a}>电子产品</div><Icon type="highlight" style={{ fontSize: '30px', color: '#09130a' }}/><Link to='/menuspage'>兼职</Link></div>
-                <div className={homepagecss.list5}><div className={homepagecss.list3a}>电子产品</div><Icon type="laptop" style={{ fontSize: '30px', color: '#09130a' }}/><Link to='/menuspage'>二手</Link></div>
+                 <div className={homepagecss.list3}><div className={homepagecss.list3a}>电子产品</div><Icon type="coffee" style={{ fontSize: '30px', color: '#09130a' }}/><Link to='/goods'>点餐</Link></div>
+                 <div className={homepagecss.list4}><div className={homepagecss.list3a}>电子产品</div><Icon type="highlight" style={{ fontSize: '30px', color: '#09130a' }}/><Link to='/goods'>兼职</Link></div>
+                <div className={homepagecss.list5}><div className={homepagecss.list3a}>电子产品</div><Icon type="laptop" style={{ fontSize: '30px', color: '#09130a' }}/><Link to='/goods'>二手</Link></div>
                  {/* <div className={homepagecss.list6}><Icon type="car" style={{ fontSize: '30px', color: '#09130a' }}/><Link to='/menuspage'>跑腿</Link></div>
                 <div className={homepagecss.list7}><Icon type="read" style={{ fontSize: '30px', color: '#09130a' }}/><Link to='/menuspage'>代课</Link></div>  */}
                 </div>

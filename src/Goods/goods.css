@@ -1,0 +1,50 @@
+.header{
+    height: 101px;
+    width: 1180px;
+    
+    margin-left: 350px;
+}
+.logo{
+    height: 100px;
+    width: 300px;
+    float: left;
+    
+}
+.logo1{
+    width: 100px;
+    height: 100px;
+    margin-left:30px ;
+    background-image: url("./../img/pt1.png");
+    float: left;
+}
+.text{
+    height: 100px;
+    font-size: 25px;
+    font-family:'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight:900 ;
+    font-variant: small-caps;
+    color: rgb(206, 90, 61);
+    margin-left: 50px;
+}
+.search{
+    height: 50px;
+    width: 600px;
+    float: right;
+    margin-right: 180px;
+    margin-top: 35px;
+}
+.choose{
+    height: 40px;
+    width: 1180px;
+    font-size:15px ;
+    margin-left: 350px;
+    margin-top: 5px;
+    border: solid 2px rgb(216, 214, 213);
+    display: flex;
+    align-items: center;
+    
+
+}
