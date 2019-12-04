@@ -19,7 +19,7 @@ export default class homepage extends React.Component{
                       <div className={homepagecss.search1}>
                       <div className={homepagecss.searchpage1}><img src={photo1} className={homepagecss.logo}></img> 购一购</div>
                       <div className={homepagecss.searchpage2}><Input></Input> </div>
-                      <div className={homepagecss.searchpage3}><div className={homepagecss.search2}><div className={homepagecss.search3}><div><img src={photo}></img></div><a href="/login" className={homepagecss.btn}>请登录</a><a href="/RegisterPage">免费注册</a></div></div></div>
+                      <div className={homepagecss.searchpage3}><div className={homepagecss.search2}><div className={homepagecss.search3}><img src={photo} width='70px' height='70px' /><a href="/login" className={homepagecss.btn}>请登录</a><a href="/RegisterPage">免费注册</a></div></div></div>
                      
                       </div>
                 </div>
