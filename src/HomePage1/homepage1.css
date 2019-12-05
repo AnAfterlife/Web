@@ -450,14 +450,18 @@ li:hover::after { content: "\5D"; right:  -10px; } */
 .bottomb2{
      width: 20%;
      margin: 10px;
+     
      color: yellow;
 }
 .bottombtop{
-   text-align: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
     
+  
 }
 .bottombtop li{
-
+    
     line-height: 25px;
     list-style: none;
 }
