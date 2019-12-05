@@ -7,7 +7,7 @@ import { BrowserRouter, Switch } from 'react-router-dom'
 const { Search } = Input;
 var GoodsCss = require('./goods.css');
 
-class Menuspage extends React.Component {
+class GoodsPage extends React.Component {
     render() {
         return (
 
@@ -36,10 +36,114 @@ class Menuspage extends React.Component {
                     </ul>
                 </div>
                 <div className={GoodsCss.product}>
-                    <div className={GoodsCss.product1}></div>
+                    <div className={GoodsCss.product1}>
+                        <div className={GoodsCss.product2}>图片</div>
+                        <div className={GoodsCss.introduce}>
+                            <div className={GoodsCss.introduce2}><span>价格</span></div>
+                            <div className={GoodsCss.introduce1}><span>商品介绍</span></div>
+                        </div>
+                    </div>
+                    <div className={GoodsCss.product1}>
+                        <div className={GoodsCss.product2}>图片</div>
+                        <div className={GoodsCss.introduce}>
+                            <div className={GoodsCss.introduce2}><span>价格</span></div>
+                            <div className={GoodsCss.introduce1}><span>商品介绍</span></div>
+                        </div>
+                    </div>
+                    <div className={GoodsCss.product1}>
+                        <div className={GoodsCss.product2}>图片</div>
+                        <div className={GoodsCss.introduce}>
+                            <div className={GoodsCss.introduce2}><span>价格</span></div>
+                            <div className={GoodsCss.introduce1}><span>商品介绍</span></div>
+                        </div>
+                    </div>
+                    <div className={GoodsCss.product1}>
+                        <div className={GoodsCss.product2}>图片</div>
+                        <div className={GoodsCss.introduce}>
+                            <div className={GoodsCss.introduce2}><span>价格</span></div>
+                            <div className={GoodsCss.introduce1}><span>商品介绍</span></div>
+                        </div>
+                    </div>
+                    <div className={GoodsCss.product1}>
+                        <div className={GoodsCss.product2}>图片</div>
+                        <div className={GoodsCss.introduce}>
+                            <div className={GoodsCss.introduce2}><span>价格</span></div>
+                            <div className={GoodsCss.introduce1}><span>商品介绍</span></div>
+                        </div>
+                    </div>
+                    <div className={GoodsCss.product1}>
+                        <div className={GoodsCss.product2}>图片</div>
+                        <div className={GoodsCss.introduce}>
+                            <div className={GoodsCss.introduce2}><span>价格</span></div>
+                            <div className={GoodsCss.introduce1}><span>商品介绍</span></div>
+                        </div>
+                    </div>
+                    <div className={GoodsCss.product1}>
+                        <div className={GoodsCss.product2}>图片</div>
+                        <div className={GoodsCss.introduce}>
+                            <div className={GoodsCss.introduce2}><span>价格</span></div>
+                            <div className={GoodsCss.introduce1}><span>商品介绍</span></div>
+                        </div>
+                    </div>
+                    <div className={GoodsCss.product1}>
+                        <div className={GoodsCss.product2}>图片</div>
+                        <div className={GoodsCss.introduce}>
+                            <div className={GoodsCss.introduce2}><span>价格</span></div>
+                            <div className={GoodsCss.introduce1}><span>商品介绍</span></div>
+                        </div>
+                    </div>
+                    <div className={GoodsCss.product1}>
+                        <div className={GoodsCss.product2}>图片</div>
+                        <div className={GoodsCss.introduce}>
+                            <div className={GoodsCss.introduce2}><span>价格</span></div>
+                            <div className={GoodsCss.introduce1}><span>商品介绍</span></div>
+                        </div>
+                    </div>
+                    <div className={GoodsCss.product1}>
+                        <div className={GoodsCss.product2}>图片</div>
+                        <div className={GoodsCss.introduce}>
+                            <div className={GoodsCss.introduce2}><span>价格</span></div>
+                            <div className={GoodsCss.introduce1}><span>商品介绍</span></div>
+                        </div>
+                    </div>
+                    <div className={GoodsCss.product1}>
+                        <div className={GoodsCss.product2}>图片</div>
+                        <div className={GoodsCss.introduce}>
+                            <div className={GoodsCss.introduce2}><span>价格</span></div>
+                            <div className={GoodsCss.introduce1}><span>商品介绍</span></div>
+                        </div>
+                    </div>
+                    <div className={GoodsCss.product1}>
+                        <div className={GoodsCss.product2}>图片</div>
+                        <div className={GoodsCss.introduce}>
+                            <div className={GoodsCss.introduce2}><span>价格</span></div>
+                            <div className={GoodsCss.introduce1}><span>商品介绍</span></div>
+                        </div>
+                    </div>
+                    <div className={GoodsCss.product1}>
+                        <div className={GoodsCss.product2}>图片</div>
+                        <div className={GoodsCss.introduce}>
+                            <div className={GoodsCss.introduce2}><span>价格</span></div>
+                            <div className={GoodsCss.introduce1}><span>商品介绍</span></div>
+                        </div>
+                    </div>
+                    <div className={GoodsCss.product1}>
+                        <div className={GoodsCss.product2}>图片</div>
+                        <div className={GoodsCss.introduce}>
+                            <div className={GoodsCss.introduce2}><span>价格</span></div>
+                            <div className={GoodsCss.introduce1}><span>商品介绍</span></div>
+                        </div>
+                    </div>
+                    <div className={GoodsCss.product1}>
+                        <div className={GoodsCss.product2}>图片</div>
+                        <div className={GoodsCss.introduce}>
+                            <div className={GoodsCss.introduce2}><span>价格</span></div>
+                            <div className={GoodsCss.introduce1}><span>商品介绍</span></div>
+                        </div>
+                    </div>
                 </div>
             </div>
         )
     }
 }
-export default Menuspage;
+export default GoodsPage;

@@ -63,13 +63,43 @@ a{
 }
 .product{
     width: 1350px;
-    
-    float: left;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
     margin-left: 260px;
-    background-color: aqua;
+    
 }
 .product1{
     width: 250px;
-    height: 320px;
+    height: 350px;
+    margin-top: 10px;
+    margin-left: 14px;
     border: solid 1px rgb(218, 218, 212);
+    clear: both;
+}
+li{
+    list-style: none;
+}
+.product2{
+    width: 230px;
+    height: 220px;
+    margin-left: 9px;
+    margin-top: 9px;
+    border: solid 1px rgb(216, 214, 213);
+    
+}
+p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+.introduce1{
+    margin-top: 30px;
+    margin-left: 9px;
+}
+.introduce2{
+    margin-left: 9px;
+    margin-top: 10px;
 }

@@ -7,6 +7,7 @@ import LubBoTu from './../LunBoTu/lunbotu'
 // import {Avatar} from 'antd'
 import photo1 from './../img/shopping.png'
 import photo from './../img/user.png'
+import Goods from './../Goods/goods'
 
 
 var homepagecss=require('./homepage1.css')
@@ -28,9 +29,9 @@ export default class homepage extends React.Component{
                 <div className={homepagecss.one}>
                         <div className={homepagecss.list1}>              
                 <div className={homepagecss.list2}><div className={homepagecss.list2a}>二手分类</div></div>
-                 <div className={homepagecss.list3}><div className={homepagecss.list3a}><Icon type="laptop" style={{ fontSize: '30px', color: '#09130a' }}/>电子产品</div><div className={homepagecss.list3b}><ul><li><a href='/menuspage'>耳机</a></li> <li><a href='/menuspage'>手机</a></li> <li><a href='/menuspage'>电脑</a></li>  <li><a href='/menuspage'>电脑主机</a></li> <li><a href='/menuspage'>音响</a></li> <li><a href='/menuspage'>鼠标</a></li> </ul> </div></div>
-                 <div className={homepagecss.list4}><div className={homepagecss.list3a}><Icon type="highlight" style={{ fontSize: '30px', color: '#09130a' }}/>学习用品</div><Link to='/menuspage'>笔 复习资料 手抄笔记 </Link></div>
-                <div className={homepagecss.list5}><div className={homepagecss.list3a}><Icon type="coffee" style={{ fontSize: '30px', color: '#09130a' }}/>生活用品</div><Link to='/menuspage'><ul>衣架 桶 洗脸盆 床桌 写字台 电灯 充电宝 </ul></Link></div>
+                 <div className={homepagecss.list3}><div className={homepagecss.list3a}><Icon type="laptop" style={{ fontSize: '30px', color: '#09130a' }}/>电子产品</div><div className={homepagecss.list3b}><ul><li><a href='/Goods'>耳机</a></li> <li><a href='/'>手机</a></li> <li><a href='/'>电脑</a></li>  <li><a href='/'>电脑主机</a></li> <li><a href='/'>音响</a></li> <li><a href='/'>鼠标</a></li> </ul> </div></div>
+                 <div className={homepagecss.list4}><div className={homepagecss.list3a}><Icon type="highlight" style={{ fontSize: '30px', color: '#09130a' }}/>学习用品</div><Link to='/'>笔 复习资料 手抄笔记 </Link></div>
+                <div className={homepagecss.list5}><div className={homepagecss.list3a}><Icon type="coffee" style={{ fontSize: '30px', color: '#09130a' }}/>生活用品</div><Link to='/'><ul>衣架 桶 洗脸盆 床桌 写字台 电灯 充电宝 </ul></Link></div>
                  {/* <div className={homepagecss.list3}><div className={homepagecss.list3a}>电子产品</div><Icon type="coffee" style={{ fontSize: '30px', color: '#09130a' }}/><Link to='/goods'>点餐</Link></div>
                  <div className={homepagecss.list4}><div className={homepagecss.list3a}>电子产品</div><Icon type="highlight" style={{ fontSize: '30px', color: '#09130a' }}/><Link to='/goods'>兼职</Link></div>
                 <div className={homepagecss.list5}><div className={homepagecss.list3a}>电子产品</div><Icon type="laptop" style={{ fontSize: '30px', color: '#09130a' }}/><Link to='/goods'>二手</Link></div> */}
