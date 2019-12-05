@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Login from './RegisterPage/RegisterPage';
-import RegisterPage from './login/login';
+import RegisterPage from './RegisterPage/RegisterPage';
+import login from './login/login';
 import FindPage from './FindPage/findpage';
 import FindPage1 from './FindPage1/findpage1';
 import Goods from './Goods/goods';
@@ -32,7 +32,7 @@ class IndexPage extends React.Component{
                 <BrowserRouter>
                     <Switch>
                         <Route path='/' exact component={HomePage1}></Route>
-                        <Route path='/login' exact component={Login}></Route>
+                        <Route path='/login' component={login}></Route>
                         <Route path='/RegisterPage' exact component={RegisterPage}></Route>
                         <Route path='/findpage' exact component={FindPage}></Route>
                         <Route path='/findpage1' exact component={FindPage1}></Route>
