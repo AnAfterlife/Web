@@ -22,16 +22,21 @@ class Menuspage extends React.Component {
                     </div>
                 </div>
                 <div className={GoodsCss.choose}>
-                    <h>亲，你是不是想找：</h>
-                    <h>|华为手机</h>
-                    <h>|小米手机</h>
-                    <h>|苹果手机</h>
-                    <h>|oppo手机</h>
-                    <h>|vivo手机</h>
-                    <h>|华为电脑</h>
-                    <h>|华硕电脑</h>
-                    <h>|戴尔电脑</h>
-                    <h>|手表</h>
+                    <ul class="fristchoose">
+                        <li><a href="" class="ch1">亲，你是不是想找:</a></li>
+                        <li><a href="" class="ch1">小米手机</a></li>
+                        <li><a href="" class="ch1">苹果手机</a></li>
+                        <li><a href="" class="ch1">oppo手机</a></li>
+                        <li><a href="" class="ch1">华为手机</a></li>
+                        <li><a href="" class="ch1">华为电脑</a></li>
+                        <li><a href="" class="ch1">华硕电脑</a></li>
+                        <li><a href="" class="ch1">苹果电脑</a></li>
+                        <li><a href="" class="ch1">戴尔电脑</a></li>
+                        <li><a href="" class="ch1">手表</a></li>
+                    </ul>
+                </div>
+                <div className={GoodsCss.product}>
+                    <div className={GoodsCss.product1}></div>
                 </div>
             </div>
         )
