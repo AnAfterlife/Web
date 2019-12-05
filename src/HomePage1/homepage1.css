@@ -243,7 +243,7 @@ li:hover::after { content: "\5D"; right:  -10px; } */
     padding: 10px;
 }
 .list3b{
-    margin: 20px;
+    margin: 10px;
 }
 .list3b li{
     display: inline-block;
@@ -265,7 +265,7 @@ li:hover::after { content: "\5D"; right:  -10px; } */
 }
 .list4b{
     
-    margin: 20px;
+    margin: 10px;
 }
 .list4b li{
     display: inline-block;
@@ -275,7 +275,7 @@ li:hover::after { content: "\5D"; right:  -10px; } */
 }
 .list4b a{
     
-    margin-left: 40px;
+    margin-left: 30px;
 }
 .list5b li{
     display: inline-block;
@@ -284,11 +284,11 @@ li:hover::after { content: "\5D"; right:  -10px; } */
     list-style: none;
 }
 .list5b a{
-    margin-left: 40px;
+    margin-left: 30px;
 }
 .list5b{
     
-    margin: 20px;
+    margin: 10px;
 }
 .list5{
     height: 32%;
