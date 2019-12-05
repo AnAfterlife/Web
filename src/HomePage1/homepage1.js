@@ -7,7 +7,7 @@ import LubBoTu from './../LunBoTu/lunbotu'
 // import {Avatar} from 'antd'
 import photo1 from './../img/shopping.png'
 import photo from './../img/user.png'
-import Header from '../Header/header';
+
 
 var homepagecss=require('./homepage1.css')
 export default class homepage extends React.Component{
@@ -17,7 +17,7 @@ export default class homepage extends React.Component{
                
                 <div className={homepagecss.searchpage}>
                       <div className={homepagecss.search1}>
-                      <div className={homepagecss.searchpage1}><img src={photo1} className={homepagecss.logo}></img> 购一购</div>
+                      <div className={homepagecss.searchpage1}><img src={photo1} width='75px' height='75px' className={homepagecss.logo}></img> <div className={homepagecss.logoname}>Campus Shopping</div></div>
                       <div className={homepagecss.searchpage2}><Input></Input> </div>
                       <div className={homepagecss.searchpage3}><div className={homepagecss.search2}><div className={homepagecss.search3}><img src={photo} width='70px' height='70px' /><a href="/login" className={homepagecss.btn}>请登录</a><a href="/RegisterPage">免费注册</a></div></div></div>
                      
@@ -50,7 +50,16 @@ export default class homepage extends React.Component{
                 <div className={homepagecss.bottom}>
                 
                 <div className={homepagecss.bottoma}><dic className={homepagecss.bottoma1}></dic></div>
-                <div className={homepagecss.bottomb}></div>
+                <div className={homepagecss.bottomb}>
+                    <div className={homepagecss.bottomball}>
+                    <div className={homepagecss.bottomb1}><img src={require('../img/pt1.png')} width='70px' height='70px' /><a href='/'>Campus Shopping</a> </div>
+                    <div className={homepagecss.bottomb2}><div className={homepagecss.bottombtop}><div>关于CS</div><li>关于我们</li><li>项目介绍</li><li>合作伙伴</li></div> </div> 
+                    <div className={homepagecss.bottomb2}><div className={homepagecss.bottombtop}><div>帮助中心</div><li>常见问题</li><li>购买询问</li><li>联系我们</li></div> </div>
+                    <div className={homepagecss.bottomb2}><div className={homepagecss.bottombtop}><div>关于CS</div><li>关于我们</li><li>项目介绍</li><li>合作伙伴</li></div> </div>
+                    <div className={homepagecss.bottomb2}><div className={homepagecss.bottombtop}><div>关于CS</div><li>关于我们</li><li>项目介绍</li><li>合作伙伴</li></div> </div>
+                    </div></div>
+
+
                 </div>
             </div>
         )
