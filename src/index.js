@@ -13,6 +13,7 @@ import Header from'./Header/header';
 import Review from './Review/review';
 import Wallet from './InterPerson/Wallet/wallet'
 import Issuse from './Issuse/issuse';
+import PersonMessage from './PersonMessage/permeg';
 
 var indexcss = require('./index.css')
 class IndexPage extends React.Component{
@@ -40,7 +41,7 @@ class IndexPage extends React.Component{
                         <Route path="/goods" exact component={Goods}></Route>
                         <Route path="/merchant" exact component={Merchant}></Route>
                         <Route path="/homepage1" exact component={HomePage1}></Route>
-                        <Route path="/PersonMessage/permeg" exact component={Header}></Route>
+                        <Route path="/PersonMessage/permeg" exact component={PersonMessage}></Route>
                         <Route path="/review" component ={Review}></Route>
                         <Route path='/issuse' component = {Issuse}></Route>
                         <Route path='/wallet' component = {Wallet}></Route>

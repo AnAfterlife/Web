@@ -106,14 +106,16 @@ li:hover::after { content: "\5D"; right:  -10px; } */
     background-repeat: no-repeat;
 }
 .logo{
-    
+    position: absolute;
     border-top-right-radius:20px;
     border-top-left-radius: 20px;
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
 }
 .logoname{
-   padding-top: 20px;
+    position: absolute;
+    padding-top: 20px;
+    padding-left: 80px;
 }
 .search1{
     width: 100%;
@@ -228,10 +230,8 @@ li:hover::after { content: "\5D"; right:  -10px; } */
     height: 30%;
     width: 100%;
     border: 0.5px solid rgb(102, 193, 235);
+    font-size: 20px;
     
-    font-size: 30px;
-    
-    background-color: whitesmoke;
 }
 .list3a{
     color:blueviolet;
@@ -242,27 +242,60 @@ li:hover::after { content: "\5D"; right:  -10px; } */
     border: 0.5px solid rgb(102, 193, 235);
     padding: 10px;
 }
+.list3b{
+    margin: 10px;
+}
 .list3b li{
     display: inline-block;
     
-    line-height: 20px;
+    line-height: 40px;
     list-style: none;
+}
+.list3b a{
+    
+    margin-left: 40px;
 }
 .list4{
     height: 30%;
     width: 100%;
     border:0.5px solid rgb(44, 202, 62);
     text-align: center;
-    font-size: 30px;
+    font-size: 20px;
    
-    background-color: whitesmoke;
+}
+.list4b{
+    
+    margin: 10px;
+}
+.list4b li{
+    display: inline-block;
+    
+    line-height: 40px;
+    list-style: none;
+}
+.list4b a{
+    
+    margin-left: 30px;
+}
+.list5b li{
+    display: inline-block;
+    
+    line-height: 40px;
+    list-style: none;
+}
+.list5b a{
+    margin-left: 30px;
+}
+.list5b{
+    
+    margin: 10px;
 }
 .list5{
     height: 32%;
     width: 100%;
     border: 1px solid rgb(162, 170, 163);
     text-align: center;
-    font-size: 30px;
+    font-size: 20px;
     
     background-color: whitesmoke;
 }
@@ -409,6 +442,7 @@ li:hover::after { content: "\5D"; right:  -10px; } */
     height: 100%;
     width: 20%;
     padding-top: 15px;
+    
 }
 .bottomb1 a{
     color: yellow;
