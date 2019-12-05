@@ -14,7 +14,7 @@ export default class homepage extends React.Component{
     render(){
         return(
             <div className={homepagecss.top1}>
-                <Header></Header>
+               
                 <div className={homepagecss.searchpage}>
                       <div className={homepagecss.search1}>
                       <div className={homepagecss.searchpage1}><img src={photo1} className={homepagecss.logo}></img> 购一购</div>
