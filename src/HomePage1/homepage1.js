@@ -28,9 +28,9 @@ export default class homepage extends React.Component{
                 <div className={homepagecss.one}>
                         <div className={homepagecss.list1}>              
                 <div className={homepagecss.list2}><div className={homepagecss.list2a}>二手分类</div></div>
-                 <div className={homepagecss.list3}><div className={homepagecss.list3a}><Icon type="laptop" style={{ fontSize: '30px', color: '#09130a' }}/>电子产品</div><div className={homepagecss.list3b}><ul><li><a href='/menuspage'>耳机</a></li> <li><a href='/menuspage'>手机</a></li> <li><a href='/menuspage'>电脑</a></li>  <li><a href='/menuspage'>电脑主机</a></li> <li><a href='/menuspage'>音响</a></li> <li><a href='/menuspage'>鼠标</a></li> </ul> </div></div>
-                 <div className={homepagecss.list4}><div className={homepagecss.list3a}><Icon type="highlight" style={{ fontSize: '30px', color: '#09130a' }}/>学习用品</div><Link to='/menuspage'>笔 复习资料 手抄笔记 </Link></div>
-                <div className={homepagecss.list5}><div className={homepagecss.list3a}><Icon type="coffee" style={{ fontSize: '30px', color: '#09130a' }}/>生活用品</div><Link to='/menuspage'><ul>衣架 桶 洗脸盆 床桌 写字台 电灯 充电宝 </ul></Link></div>
+                 <div className={homepagecss.list3}><div className={homepagecss.list3a}><Icon type="laptop" style={{ fontSize: '30px', color: '#09130a' }}/>电子产品</div><div className={homepagecss.list3b}><li><a href='/menuspage'>耳机</a></li> <li><a href='/menuspage'>手机</a></li> <li><a href='/menuspage'>电脑</a></li>  <li><a href='/menuspage'>电脑主机</a></li> <li><a href='/menuspage'>音响</a></li> <li><a href='/menuspage'>鼠标</a></li><li><a href='/menuspage'>MP3</a></li> <li><a href='/menuspage'>散热器</a></li> </div></div>
+                 <div className={homepagecss.list4}><div className={homepagecss.list3a}><Icon type="highlight" style={{ fontSize: '30px', color: '#09130a' }}/>学习用品</div> <div className={homepagecss.list4b}><li><a href='/menuspage'>水笔</a></li> <li><a href='/menuspage'>复习资料</a></li>  <li><a href='/menuspage'>手抄笔记</a></li> <li><a href='/menuspage'>笔记本</a></li> <li><a href='/menuspage'>文具盒</a></li> <li><a href='/menuspage'>橡皮擦</a></li> <li><a href='/menuspage'>课外书</a></li></div></div>
+                <div className={homepagecss.list5}><div className={homepagecss.list3a}><Icon type="coffee" style={{ fontSize: '30px', color: '#09130a' }}/>生活用品</div><div className={homepagecss.list5b}><li><a href='/menuspage'>衣架</a></li>  <li><a href='/menuspage'>桶</a></li> <li><a href='/menuspage'>洗脸盆</a></li><li><a href='/menuspage'>床桌</a></li><li><a href='/menuspage'>写字台</a></li><li><a href='/menuspage'>电灯</a></li> <li><a href='/menuspage'>充电宝</a></li> <li><a href='/menuspage'>卫生纸</a></li> <li><a href='/menuspage'>垃圾袋</a></li><li><a href='/menuspage'>沐浴乳</a></li><li><a href='/menuspage'>洗发水</a></li></div></div>
                  {/* <div className={homepagecss.list3}><div className={homepagecss.list3a}>电子产品</div><Icon type="coffee" style={{ fontSize: '30px', color: '#09130a' }}/><Link to='/goods'>点餐</Link></div>
                  <div className={homepagecss.list4}><div className={homepagecss.list3a}>电子产品</div><Icon type="highlight" style={{ fontSize: '30px', color: '#09130a' }}/><Link to='/goods'>兼职</Link></div>
                 <div className={homepagecss.list5}><div className={homepagecss.list3a}>电子产品</div><Icon type="laptop" style={{ fontSize: '30px', color: '#09130a' }}/><Link to='/goods'>二手</Link></div> */}
@@ -55,8 +55,8 @@ export default class homepage extends React.Component{
                     <div className={homepagecss.bottomb1}><img src={require('../img/pt1.png')} width='70px' height='70px' /><a href='/'>Campus Shopping</a> </div>
                     <div className={homepagecss.bottomb2}><div className={homepagecss.bottombtop}><div>关于CS</div><li>关于我们</li><li>项目介绍</li><li>合作伙伴</li></div> </div> 
                     <div className={homepagecss.bottomb2}><div className={homepagecss.bottombtop}><div>帮助中心</div><li>常见问题</li><li>购买询问</li><li>联系我们</li></div> </div>
-                    <div className={homepagecss.bottomb2}><div className={homepagecss.bottombtop}><div>关于CS</div><li>关于我们</li><li>项目介绍</li><li>合作伙伴</li></div> </div>
-                    <div className={homepagecss.bottomb2}><div className={homepagecss.bottombtop}><div>关于CS</div><li>关于我们</li><li>项目介绍</li><li>合作伙伴</li></div> </div>
+                    <div className={homepagecss.bottomb2}><div className={homepagecss.bottombtop}><div>协议</div><li>注册须知</li><li>用户协议</li><li>版权说明</li></div> </div>
+                    <div className={homepagecss.bottomb2}><div className={homepagecss.bottombtop}><div>客服中心</div><li></li><li></li></div> </div>
                     </div></div>
 
 
