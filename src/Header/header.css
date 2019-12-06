@@ -1,12 +1,27 @@
 .header{
     width: 100%;
     height: 30px;
-    line-height: 30px;
-    background: white;
+    background-color: gold;
 }
-.right{
-    float: right;
+.all{
+    
+    height:30px;
+    margin: 0 150px;
+    display: flex;
+    justify-content: space-between;
+    
 }
-.left{
-    float: left;
+.one{
+   width: 10%;
+   height: 30px;
+   
+   
+}
+.two{
+   width: 25%;
+   height:30px;
+   text-align: center;
+}
+.two a{
+    margin: 0 10px;
 }

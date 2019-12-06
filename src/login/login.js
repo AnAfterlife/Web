@@ -17,7 +17,7 @@ export default class login extends React.Component{
                     <p><input prefix={<Icon type="user" ></Icon>} type="text" name="username" placeholder="用户名" className={logincss.tg}></input></p>
                     <p><input type="text" name="password" placeholder="密码" className={logincss.tg} prefix={<Icon type="unlock" />}></input></p>
                     <p><Link to='/homepage1'><input className={logincss.submit} type="submit" value="登录"></input></Link><span><input type="checkbox" onClick= ""></input><lable className={logincss.checkbox}>我已阅读并同意相关条款</lable></span></p>
-                    <p className={logincss.tg1}><Link to='/login'>立即注册</Link></p>
+                    <p className={logincss.tg1}><Link to='/login'>登录</Link></p>
                     </table>
                     </div>
                 </div>

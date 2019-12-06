@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import {Spin} from 'antd'
 
 var HeaderCss = require('./header.css');
 
@@ -7,17 +8,27 @@ export default class Header extends React.Component{
     render(){
         return(
         <div className={HeaderCss.header}>
-            <div className={HeaderCss.left}>
-            hi,欢迎来到校园服务平台，祝你天天都有好心情！
-       
-            <div className={HeaderCss.right}>
-            <Link to="/homePage">登录</Link>
-            <span>|</span>
-            <Link to="/login" >注册 </Link>
+          <div className={HeaderCss.all}>
+                <div className={HeaderCss.one}>
+                 <a href="/">客服服务 </a>
+                   <spin>|</spin>
+                  <a href="/">返回首页</a> 
                     </div>
-                </div>
-            </div>
-   
+                    
+                    <div className={HeaderCss.two}>
+                        
+                        <a href='/login'>立即登录</a>
+                        <a href='/RegisterPage'>注册</a>   
+                            <a href='/wallet'>我的信息</a>
+                            <a href='/PersonMessage/permeg'>我的订单</a>
+                            <a href='/'>购物车</a>
+                            
+                          
+                          
+                           </div>
+                           </div>
+                    </div>
+                  
         )
 }
 }
