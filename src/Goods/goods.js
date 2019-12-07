@@ -144,9 +144,15 @@ class GoodsPage extends React.Component {
                         </div>
                     </div>
                 </div>
+                <div className={GoodsCss.picture}>
+                    <Link to='/'><div className={GoodsCss.picture1}></div></Link>
+                    <Link to='/'><div className={GoodsCss.picture2}></div></Link>
+                    <Link to='/'><div className={GoodsCss.picture3}></div></Link>
+                    <Link to='/'><div className={GoodsCss.picture4}></div></Link>
+                </div>
                 <div className={GoodsCss.bottom}>
 
-                    <div className={GoodsCss.bottoma}><dic className={GoodsCss.bottoma1}></dic></div>
+                    
                     <div className={GoodsCss.bottomb}>
                         <div className={GoodsCss.bottomball}>
                             <div className={GoodsCss.bottomb1}><img src={require('../img/pt1.png')} width='70px' height='70px' /><a href='/'>Campus Shopping</a> </div>
