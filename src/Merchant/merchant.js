@@ -7,13 +7,17 @@ export default class Merchant1 extends React.Component{
             <div className={Merchant.totalpage}>
                 <div className={Merchant.totalpage1}>
                     <div className={Merchant.header}>
-                        <div className={Merchant.header1}><Avatar shape="shape" style={{ backgroundColor: 'pink' }} size={64} icon="user" />用户名</div>
+                        <div className={Merchant.header1}><Avatar shape="shape" style={{ backgroundColor: 'pink' }} size={64} icon="user" />DNGL</div>
                         <div className={Merchant.header2}>商家1</div>
                         <div className={Merchant.header2}>商家2</div>
                         <div className={Merchant.header2}>商家3</div>
                     </div>
                     <div className={Merchant.totalpage5}>
-                    <div className={Merchant.header3}>商家名</div>
+                    <div className={Merchant.header3}>
+                       <ul>
+                           <li className={Merchant.point}></li> <p>在线客服</p>
+                       </ul>
+                    </div>
                     <div className={Merchant.header4}>聊天内容</div>
                     <div className={Merchant.header6}>
                         <div className={Merchant.header7}>

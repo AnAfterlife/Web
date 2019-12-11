@@ -8,7 +8,7 @@
     height: 100px;
     width: 300px;
     float: left;
-    
+    margin-top: 30px;
 }
 .logo1{
     width: 100px;
@@ -73,7 +73,7 @@ a{
     width: 250px;
     height: 350px;
     margin-top: 10px;
-    margin-left: 14px;
+    margin-left: 24.5px;
     border: solid 1px rgb(218, 218, 212);
     clear: both;
 }
@@ -102,4 +102,104 @@ p {
 .introduce2{
     margin-left: 9px;
     margin-top: 10px;
+}
+.product3{
+    width: 250px;
+    height: 350px;
+    margin-top: 10px;
+    border: solid 1px rgb(218, 218, 212);
+    float: left;
+}
+.product4{
+    width: 250px;
+    height: 350px;
+    margin-top: 10px;
+    margin-left: 24.5px;
+    border: solid 1px rgb(218, 218, 212);
+    float: right;
+}
+.picture{
+    width: 1350px;
+    height: 160px;
+    display: flex;
+    margin-left: 265px;
+    margin-top: 30px;
+    flex-wrap: nowrap;
+}
+.picture1{
+    width: 333px;
+    height: 100px;
+    background-image: url(./../img/优.jpg);
+}
+.picture2{
+    width: 337.5px;
+    height: 100px;
+    background-image: url(./../img/三.jpg);
+}
+.picture3{
+    width: 337.5px;
+    height: 100px;
+    background-image: url(./../img/官.jpg);
+}
+.picture4{
+    width: 328px;
+    height: 100px;
+    background-image: url(./../img/userd.jpg);
+}
+.bottom{
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+.bottoma{
+    width: 100%;
+    height: 60%;
+    display: flex;
+}
+.bottoma1{
+    width: 100%;
+    height: 100%;
+    padding: 20px 40px;
+}
+.bottomb{
+    width: 100%;
+    height: 40%;
+    
+    background-color:black;
+}
+.bottomball{
+    width: 100%;
+    height: 100%;
+    padding: 20px 200px;
+    display: flex;
+}
+.bottomb1{
+    font-size: 24px;
+    height: 100%;
+    width: 20%;
+    padding-top: 15px;
+    
+}
+.bottomb1 a{
+    color: rgb(218, 49, 27);
+}
+.bottomb2{
+     width: 20%;
+     margin: 10px;
+     
+     color: yellow;
+}
+.bottombtop{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+  
+}
+.bottombtop li{
+    
+    line-height: 25px;
+    list-style: none;
 }
