@@ -14,6 +14,7 @@ import Review from './Review/review';
 import Wallet from './InterPerson/Wallet/wallet'
 import Issuse from './Issuse/issuse';
 import PersonMessage from './PersonMessage/permeg';
+import CommodityPage from './Commodity/commodity';
 
 var indexcss = require('./index.css')
 class IndexPage extends React.Component{
@@ -45,6 +46,7 @@ class IndexPage extends React.Component{
                         <Route path="/review" component ={Review}></Route>
                         <Route path='/issuse' component = {Issuse}></Route>
                         <Route path='/wallet' component = {Wallet}></Route>
+                        <Route path='/commodity' component = {CommodityPage}></Route>
                         
                         
                     </Switch>

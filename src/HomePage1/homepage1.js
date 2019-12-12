@@ -42,7 +42,7 @@ export default class homepage extends React.Component{
                 </div>
                 
                 <div className={homepagecss.two}>
-                <div className={homepagecss.tuh}><div className={homepagecss.tuh1}><a href='/' className={homepagecss.btntwo}>首页</a><a className={homepagecss.btntwo}>最新商品</a><a className={homepagecss.btntwo}>商品推荐</a><a className={homepagecss.btntwo}>活动商品</a></div></div>
+                <div className={homepagecss.tuh}><div className={homepagecss.tuh1}><a href='/' className={homepagecss.btntwo}>首页</a><a className={homepagecss.btntwo}>最新商品</a><a className={homepagecss.btntwo}>商品推荐</a><a className={homepagecss.btntwo}>发布商品</a></div></div>
                 <div className={homepagecss.tu1}><LubBoTu></LubBoTu></div>
                 <div className={homepagecss.tu2}></div>
                 </div>
@@ -64,6 +64,7 @@ export default class homepage extends React.Component{
 
 
                 </div>
+
             </div>
         )
     }

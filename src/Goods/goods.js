@@ -5,6 +5,7 @@ import { Carousel } from 'antd';
 import { Link } from 'react-router-dom'
 import { BackTop } from 'antd';
 import { BrowserRouter, Switch } from 'react-router-dom'
+
 const { Search } = Input;
 
 var GoodsCss = require('./goods.css');
@@ -38,13 +39,13 @@ class GoodsPage extends React.Component {
                     </ul>
                 </div>
                 <div className={GoodsCss.product}>
-                    <div className={GoodsCss.product3}>
+                    <Link to='/commodity'><div className={GoodsCss.product3}>
                         <div className={GoodsCss.product2}>图片</div>
                         <div className={GoodsCss.introduce}>
                             <div className={GoodsCss.introduce2}><span>价格</span></div>
                             <div className={GoodsCss.introduce1}><span>商品介绍</span></div>
                         </div>
-                    </div>
+                    </div></Link>
                     <div className={GoodsCss.product1}>
                         <div className={GoodsCss.product2}>图片</div>
                         <div className={GoodsCss.introduce}>
@@ -144,9 +145,15 @@ class GoodsPage extends React.Component {
                         </div>
                     </div>
                 </div>
+                <div className={GoodsCss.picture}>
+                    <Link to='/'><div className={GoodsCss.picture1}></div></Link>
+                    <Link to='/'><div className={GoodsCss.picture2}></div></Link>
+                    <Link to='/'><div className={GoodsCss.picture3}></div></Link>
+                    <Link to='/'><div className={GoodsCss.picture4}></div></Link>
+                </div>
                 <div className={GoodsCss.bottom}>
 
-                    <div className={GoodsCss.bottoma}><dic className={GoodsCss.bottoma1}></dic></div>
+                    
                     <div className={GoodsCss.bottomb}>
                         <div className={GoodsCss.bottomball}>
                             <div className={GoodsCss.bottomb1}><img src={require('../img/pt1.png')} width='70px' height='70px' /><a href='/'>Campus Shopping</a> </div>
