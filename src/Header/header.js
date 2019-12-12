@@ -10,7 +10,7 @@ export default class Header extends React.Component{
         <div className={HeaderCss.header}>
           <div className={HeaderCss.all}>
                 <div className={HeaderCss.one}>
-                 <a href="/">客服服务 </a>
+                 <a href="/merchant">客服服务 </a>
                    <spin>|</spin>
                   <a href="/">返回首页</a> 
                     </div>
