@@ -19,14 +19,7 @@ export default class CommodityPage extends React.Component{
                 </div>
                 <div className={CommodityCss.slideshow}>
                     <div className={CommodityCss.slideshow1}>
-                        <div className={CommodityCss.slideshow2}><span date-role="" className={CommodityCss.number}>30 </span>/30</div>
-                        <ul>
-                            <li date-role='img' date-index='2' ><img data-src="" src=""></img>图片1</li>
-                            <li date-role='img' date-index='2' ><img data-src="" src=""></img>图片2</li>
-                            <li date-role='img' date-index='2' ><img data-src="" src=""></img>图片3</li>
-                            <li date-role='img' date-index='2' ><img data-src="" src=""></img>图片4</li>
-                            <li date-role='img' date-index='2' ><img data-src="" src=""></img>图片5</li>
-                        </ul>
+                        
                     </div>
                 </div>
             </div>
