@@ -100,34 +100,36 @@ li:hover::after { content: "\5D"; right:  -10px; } */
 .searchpage{
    
     width: 100%;
-    height: 200px;
+    height: 300px;
     background-image: url('../img/heh.jpg');
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
 .logo{
-    position: absolute;
+    
     border-top-right-radius:20px;
     border-top-left-radius: 20px;
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
 }
 .logoname{
-    position: absolute;
-    padding-top: 20px;
-    padding-left: 80px;
+   
+    
 }
 .search1{
     width: 100%;
     height: 100%;
     padding:0 20px;
     display: flex;
+   
+    flex-wrap: nowrap;
     justify-content: space-between;
     
 }
+
 .searchpage1{
    display: flex;
-    width: 25%;
+    width: 30%;
     font-size: 3em;
     font-style: oblique;
     font-family: serif;
@@ -135,20 +137,25 @@ li:hover::after { content: "\5D"; right:  -10px; } */
     margin: 0 40px;
     overflow: hidden;
     list-style: none;
+    position: absolute;
 }
 .searchpage2{
     width: 50%;
-    
+    position: absolute;
+    margin-left: 25%;
     
 }
 .searchpage3{
 
     width: 20%;
     height: 200px;
+    margin-top: 100px;
     border-radius: 5px;
     background-color:#fff;
     margin-right: 150px;
-     
+    margin-left: 75%;
+    position: absolute;
+   
 }
 
 .search2{
@@ -227,6 +234,7 @@ li:hover::after { content: "\5D"; right:  -10px; } */
 }
 
 .list3{
+    
     height: 30%;
     width: 100%;
     border: 0.5px solid rgb(102, 193, 235);
@@ -241,6 +249,8 @@ li:hover::after { content: "\5D"; right:  -10px; } */
     height: 30%;
     border: 0.5px solid rgb(102, 193, 235);
     padding: 10px;
+    white-space: nowrap;
+    flex-wrap: nowrap;
 }
 .list3b{
     margin: 10px;
@@ -328,7 +338,8 @@ li:hover::after { content: "\5D"; right:  -10px; } */
 
 }
 .tuh{
-    
+    flex-wrap: nowrap;
+    white-space: nowrap;
     height: 8%;
     width: 100%;
 }
@@ -363,6 +374,7 @@ li:hover::after { content: "\5D"; right:  -10px; } */
 .tu1{
     height: 50%;
     width: 100%;
+   
 }
 
 .tu2{
@@ -413,6 +425,8 @@ li:hover::after { content: "\5D"; right:  -10px; } */
     margin-top: 800px;
     position: absolute;
     display: flex;
+
+    white-space: nowrap;
     flex-direction: column;
 }
 .bottoma{
@@ -457,7 +471,7 @@ li:hover::after { content: "\5D"; right:  -10px; } */
     display: flex;
     flex-direction: column;
     text-align: center;
-    
+    flex-wrap: nowrap;
   
 }
 .bottombtop li{
