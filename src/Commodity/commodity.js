@@ -19,7 +19,7 @@ export default class CommodityPage extends React.Component{
                 </div>
                 <div className={CommodityCss.slideshow}>
                     <div className={CommodityCss.slideshow1}>
-                        
+                        <div></div>
                     </div>
                 </div>
             </div>
