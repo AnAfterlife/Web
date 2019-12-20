@@ -19,7 +19,8 @@ export default class Header extends React.Component{
       
          
         
-                    </div>
+       
+         
            
               <div className={HeaderCss.two}>
                         <div className={HeaderCss.all}>
@@ -33,8 +34,8 @@ export default class Header extends React.Component{
               
           </div>
           
-                    
-                  
+                  </div>  
+         
         )
 }
 }
