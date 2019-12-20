@@ -1,32 +1,109 @@
 .header{
     width: 100%;
     height: 30px;
-    position: absolute;
-    background-color: gold;
-}
-.div{
-    white-space: nowrap;
-}
-.all{
+    position: fixed;
+    z-index: 3000;
     
-    height:30px;
-    margin: 0 150px;
-    display: flex;
-    justify-content: space-between;
-    
+    background-color: ghostwhite;
 }
+
+  
 .one{
-   width: 10%;
-   height: 30px;
-   white-space: nowrap;
+    width:20%;
+    height: 100%;
+    left: 20px;
+    position: relative;
    
 }
+
 .two{
-   width: 25%;
-   height:30px;
-   text-align: center;
-   white-space: nowrap;
+    width: 30%;
+    height: 100%;
+    position: absolute;
+    
+    top: 0px;
+    right: 0px;
+    
 }
-.two a{
-    margin: 0 10px;
+.all{
+    width: 350px;
+    float: right;
+    
+}
+.a{
+    float: left;
+    padding: 0 10px;
+    position: relative;
+    vertical-align: top;
+    border-right: 1px solid #e2e2e2; 
+}
+.a1 {
+    
+    position:absolute;
+    background-color:white;
+    height: 100px;
+    width: 70px;
+    
+    border-radius: 5px;
+    display:none;
+    
+  }
+  .login{
+      height:100%;
+     text-align: center;
+      
+  }
+  .loginlogo{
+   height: 33%;
+   width: 100%;
+  
+   
+  }
+  .btn{
+    
+    height:33%;
+    text-align: center;
+    display: block;
+    font-size: 12px;
+    transition: 0.5s;
+   
+}
+.btn:hover {
+    transition: 0.5s;
+    color: #fff;
+     background:  rgb(102, 102, 250);
+}
+.a:hover .a1{
+    display:block;
+    float: left;
+    border: 1px solid #dedede;
+ }
+.b{
+    float: left;
+    border-right: 1px solid #e2e2e2; 
+    padding: 0 10px;
+    position: relative;
+    vertical-align: top;
+    border-right: 1px solid #e2e2e2; 
+}
+.c{
+    float: left;
+    padding: 0 10px;
+    position: relative;
+    vertical-align: top;
+    border-right: 1px solid #e2e2e2; 
+}
+.d{
+    float: left;
+    padding: 0 10px;
+    position: relative;
+    vertical-align: top;
+    border-right: 1px solid #e2e2e2; 
+}
+.e{
+    float: left;
+    padding: 0 10px;
+    position: relative;
+    vertical-align: top;
+    border-right: 1px solid #e2e2e2; 
 }
