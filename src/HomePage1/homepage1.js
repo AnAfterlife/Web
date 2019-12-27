@@ -5,6 +5,7 @@ import Input  from './../Input/input';
 import { Icon, Spin } from 'antd';
 import LubBoTu from './../LunBoTu/lunbotu'
 import Goods from './../Goods/goods'
+import bottomPage from '../bottom/bottom'
 import SearchPage from './Search/searchpage'
 // import {Avatar} from 'antd'
 import { List, Typography } from 'antd';
@@ -64,7 +65,7 @@ export default class homepage extends React.Component{
     </p></div></a></li>
                     <li className={homepagecss.b}><a>学习用品 <div className={homepagecss.pageb}>啥比</div></a></li>
                     <li>生活用品</li>
-                    <li></li>
+                    <li>生活用品</li>
                 </ul>
            
     </div></div></div><a href='/' className={homepagecss.btntwo}>首页</a><a className={homepagecss.btntwo}>最新商品</a><a className={homepagecss.btntwo}>商品推荐</a><a className={homepagecss.btntwo}>发布商品</a><a className={homepagecss.btntwo}>最新消息</a></div></div>
@@ -72,21 +73,23 @@ export default class homepage extends React.Component{
                 <div className={homepagecss.tu2}></div>
                 </div>
                 </div>
-                {/* <div className={homepagecss.bottom}>
+              
+                 <div className={homepagecss.bottom}>
                 
-                <div className={homepagecss.bottoma}><dic className={homepagecss.bottoma1}></dic></div>
+
                 <div className={homepagecss.bottomb}>
                     <div className={homepagecss.bottomball}>
-                    <div className={homepagecss.bottomb1}><img src={require('../img/pt1.png')} width='70px' height='70px' /><a href='/'>Campus Shopping</a> </div>
-                    <div className={homepagecss.bottomb2}><div className={homepagecss.bottombtop}><div>关于CS</div><li>关于我们</li><li>项目介绍</li><li>合作伙伴</li></div> </div> 
-                    <div className={homepagecss.bottomb2}><div className={homepagecss.bottombtop}><div>帮助中心</div><li>常见问题</li><li>购买询问</li><li>联系我们</li></div> </div>
-                    <div className={homepagecss.bottomb2}><div className={homepagecss.bottombtop}><div>协议</div><li>注册须知</li><li>用户协议</li><li>版权说明</li></div> </div>
-                    <div className={homepagecss.bottomb2}><div className={homepagecss.bottombtop}><div>客服中心</div><li></li><li></li></div> </div>
-                    </div></div> 
-
-
-                </div>  */}
-
+                    <div className={homepagecss.bottomb1}><img src={require('../img/pt1.png')} width='70px' height='70px' /><a href='/'>二手市场</a> </div>
+                    <div className={homepagecss.bottomb2}><div className={homepagecss.bottombtop}><ul> <li>关于市场</li> <li>关于我们</li> <li>产品介绍</li> <li>合作伙伴</li></ul> </div>  </div>
+                    <div className={homepagecss.bottomb2}><div className={homepagecss.bottombtop}> <ul> <li>帮助中心</li> <li>使用条款</li> <li>常见问题</li> <li>交流中心</li></ul> </div> </div>
+                    <div className={homepagecss.bottomb2}><div className={homepagecss.bottombtop}><ul> <li>了解更多</li> <li>授权协议</li> <li>相关政策</li> <li>友情提示</li></ul> </div> </div>
+                    <div className={homepagecss.bottomb2}><div className={homepagecss.bottombtop}> <ul> <li>客服中心</li> <li><Icon type="phone" theme="twoTone" width="20px" height="20px" />001-002-003</li> <li><div className={homepagecss.bottombtn}><a href="/merchant">在线客服</a></div></li> </ul> </div> </div>
+                   
+                   </div>
+                </div> 
+                
+              </div> 
+              
             </div>
         )
     }
