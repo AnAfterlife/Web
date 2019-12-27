@@ -147,59 +147,9 @@ p {
     background-image: url(./../img/userd.jpg);
 }
 .bottom{
-    width: 100%;
+    width: 500px;
     height: 400px;
     position: absolute;
     display: flex;
     flex-direction: column;
-}
-.bottoma{
-    width: 100%;
-    height: 60%;
-    display: flex;
-}
-.bottoma1{
-    width: 100%;
-    height: 100%;
-    padding: 20px 40px;
-}
-.bottomb{
-    width: 100%;
-    height: 40%;
-    
-    background-color:black;
-}
-.bottomball{
-    width: 100%;
-    height: 100%;
-    padding: 20px 200px;
-    display: flex;
-}
-.bottomb1{
-    font-size: 24px;
-    height: 100%;
-    width: 20%;
-    padding-top: 15px;
-    
-}
-.bottomb1 a{
-    color: rgb(218, 49, 27);
-}
-.bottomb2{
-     width: 20%;
-     margin: 10px;
-     
-     color: yellow;
-}
-.bottombtop{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    
-  
-}
-.bottombtop li{
-    
-    line-height: 25px;
-    list-style: none;
 }

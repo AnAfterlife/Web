@@ -17,7 +17,7 @@ import PersonMessage from './PersonMessage/permeg';
 import CommodityPage from './Commodity/commodity';
 import Release from './Release/release';
 
-var indexcss = require('./index.css')
+
 class IndexPage extends React.Component{
     render(){
         return(
