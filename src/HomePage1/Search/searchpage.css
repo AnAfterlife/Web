@@ -10,9 +10,14 @@
 } */
 .search{
     width: 100%;
-    height: 200px;
+    height: 250px;
    
-    background-color: tomato;
+    background-image: url("../../img/bg.jpg");
+    background-size:100% ;
+  
+    background-repeat: no-repeat;
+  
+
 }
 
 .searchview{
@@ -24,7 +29,7 @@
     width: 250px;
     height: 150px;
     font-size: 3em;
-    font-style: oblique;
+   
     font-family: serif;
     padding-top: 30px;
     

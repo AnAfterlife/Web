@@ -1,11 +1,11 @@
-import React from 'react'
-import {Icon} from 'antd'
+import React from 'react';
+import {Icon} from 'antd';
 var bottomcss=require('./bottom.css')
-export default class bottomPage extends React.Component{
+export default class BottomPage extends React.Component{
     render(){
         return(
 
-
+ 
             <div className={bottomcss.bottom}>
                 
 
@@ -21,6 +21,7 @@ export default class bottomPage extends React.Component{
                </div>
             </div> 
             </div> 
+     
         )
     }
 }
