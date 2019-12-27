@@ -40,10 +40,10 @@
 .a1 {
     
     position:absolute;
+    top: 21px;
     background-color:white;
-    height: 100px;
+    height: 60px;
     width: 70px;
-    
     border-radius: 5px;
     display:none;
     
@@ -53,25 +53,22 @@
      text-align: center;
       
   }
-  .loginlogo{
-   height: 33%;
-   width: 100%;
-  
-   
-  }
+ 
   .btn{
     
-    height:33%;
+    height:50%;
     text-align: center;
     display: block;
     font-size: 12px;
+    border-radius: 1px;
     transition: 0.5s;
-   
+  
 }
 .btn:hover {
     transition: 0.5s;
     color: #fff;
-     background:  rgb(102, 102, 250);
+    
+    background: rgb(255,216,77);
 }
 .a:hover .a1{
     display:block;
