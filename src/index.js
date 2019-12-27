@@ -15,6 +15,7 @@ import Wallet from './InterPerson/Wallet/wallet'
 import Issuse from './Issuse/issuse';
 import PersonMessage from './PersonMessage/permeg';
 import CommodityPage from './Commodity/commodity';
+import UsPage from './bottom/Us/us';
 
 
 class IndexPage extends React.Component{
@@ -47,7 +48,7 @@ class IndexPage extends React.Component{
                         <Route path='/issuse' component = {Issuse}></Route>
                         <Route path='/wallet' component = {Wallet}></Route>
                         <Route path='/commodity' component = {CommodityPage}></Route>
-                        
+                        <Route path='/us' component={UsPage}></Route>
                         
                     </Switch>
                 </BrowserRouter>

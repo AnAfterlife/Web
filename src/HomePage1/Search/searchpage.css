@@ -35,19 +35,12 @@
     
 }
 .searchlogo{
-    float: left;
-   position: relative;
-   padding-top: 25px;
-  
-}
-.logoname{
-    white-space: nowrap;
-    float: right;
    
-     position: relative;
-     padding-top: 20px;
-  }
-  
+    position: relative;
+    bottom: 60px;
+    left: 20px;
+}
+
 .logo{
     
     border-top-right-radius:20px;
