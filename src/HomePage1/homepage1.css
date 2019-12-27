@@ -243,12 +243,14 @@ ul a{
     font-size: 18px;
     transition: 0.5s;
     color: #bf095f;
+    
    
 }
 .btntwo:hover {
     transition: 0.5s;
     color: #ffffff;
-     background: #bf095f;
+     background: rgb(255,216,77);
+     border-radius: 5px;
 }
 .tu1{
     position: relative;
