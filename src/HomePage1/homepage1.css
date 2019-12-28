@@ -195,12 +195,12 @@ ul a{
 
 
 
-.goodslist:hover .list{
+ .goodslist:hover .list{
     transition: 0.5;
     display:table;
     
    
-}
+} 
 .pagea{
     width: 600px;
     height: 400px;
