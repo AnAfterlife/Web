@@ -6,6 +6,7 @@ import {Icon,Input,Menu,Dropdown} from 'antd'
 
 var logincss = require('./login.css')
 
+
 export default class login extends React.Component{
     constructor(props){
         super(props);
@@ -45,7 +46,8 @@ export default class login extends React.Component{
                     </table>
                     </div>
                 </div>
-            </div>
+                </div>
+              
         )
     }
 }

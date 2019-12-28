@@ -1,7 +1,8 @@
 .register{
     height: 984px;
     width: 1879px;
-    background-image:url('./../注册4.jpg')
+    /* background-image:url('./../注册4.jpg') */
+    
 }
 .registerheader{
     text-align: center;
@@ -13,15 +14,16 @@
     width: 450px;
     margin-left: 715px;
     margin-top: 160px;
+    float: left;
 }
-.biaoge{
+/* .biaoge{
     margin-left: auto;
     margin-right: auto;
-}
+} */
 .tg{
     width: 450px;
     height: 50px;
-   
+    border-color: orangered;
 }
 .submit{
     border: 1px #3083ff solid;
