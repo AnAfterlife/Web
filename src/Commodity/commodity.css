@@ -69,10 +69,38 @@
   .introduce{
       width: 700px;
       height: 550px;
-      float: left;
+      margin-right: 330px;
+      float: right;
   }
   .introduce1{
-    width: 200px;
-    display: flex;
-    justify-content: center;
+    width: 300px;
+    margin-left: 200px;
+
+  }
+  .introduce2{
+      width: 700px;
+      height: 180px;
+      margin-top: 20px;
+      background-color: rgb(236, 247, 232);
+      border: solid 1px rgb(243, 241, 245);
+  }
+  .introduce3{
+      width: 700px;
+      height: 120px;
+      background-color: rgb(247, 242, 240);
+      border: solid 1px rgb(243, 241, 245);
+      margin-top: 20px;
+      
+  }
+  .introduce4{
+      width: 200px;
+      height: 30px;
+      margin-top: 20px;
+  }
+  .introduce5{
+      margin-top: 20px;
+      margin-left: 310px;
+  }
+  .introduce6{
+      width: 100%;
   }
