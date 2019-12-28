@@ -1,0 +1,116 @@
+/* 
+.searchpage{
+   
+    width: 100%;
+    height: 300px;
+    background-image: url('../../img/heh.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    
+} */
+.search{
+    width: 100%;
+    height: 250px;
+   
+    background-image: url("../../img/bg.jpg");
+    background-size:100% ;
+  
+    background-repeat: no-repeat;
+  
+
+}
+
+.searchview{
+    padding: 20px 20px;
+
+}
+.a{ 
+    
+    width: 250px;
+    height: 150px;
+    font-size: 3em;
+   
+    font-family: serif;
+    padding-top: 30px;
+    
+}
+.searchlogo{
+   
+    position: relative;
+    bottom: 60px;
+    left: 20px;
+}
+
+.logo{
+    
+    border-top-right-radius:20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+
+.searchpage2{
+   width: 65%;
+   height: 100%;
+   margin: auto;
+  position: relative;
+   top: 100px;
+  
+    
+}
+
+.searchpage3{
+
+    width: 20%;
+    height: 200px;
+    margin-top: 100px;
+    border-radius: 5px;
+    background-color:#fff;
+    margin-right: 150px;
+    margin-left: 75%;
+    white-space: nowrap;
+    flex-wrap: nowrap;
+    position: absolute;
+   
+}
+
+.search2{
+    margin:0 auto;
+    
+    justify-content: center;
+    width: 50%;
+    height: 200px;
+    display: flex;
+  
+    
+  
+}
+
+.search3{
+   
+    margin: auto;
+    width: 70px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.btn{
+
+    color: black;
+    text-align: center;
+    margin: 0 auto;
+    width: 70px;
+    height: 32px;
+    font-size: 14px;
+    font-family: PingFangSC-Regular;
+    line-height: 32px;
+    background-color: #ffd84d;
+
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 3px;
+}
