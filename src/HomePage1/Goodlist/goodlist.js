@@ -22,7 +22,10 @@ export default class GoodlistPage extends React.Component{
              },{
                  id:6,
                  name:"你爸爸"
-             }
+             },{
+                id:7,
+                name:"哈和"
+            }
             ]
 
              return datalist;
