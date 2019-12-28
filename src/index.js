@@ -36,7 +36,7 @@ class IndexPage extends React.Component{
                     <Header/>
                     <Switch>
                         <Route path='/' exact component={HomePage1}></Route>
-                        <Route path='/login' component={login}></Route>
+                        <Route path='/login' component={login} history={this.props.history}></Route>
                         <Route path='/RegisterPage' exact component={RegisterPage}></Route>
                         <Route path='/findpage' exact component={FindPage}></Route>
                         <Route path='/findpage1' exact component={FindPage1}></Route>
