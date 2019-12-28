@@ -24,7 +24,7 @@ export default class Header extends React.Component{
            
               <div className={HeaderCss.two}>
                         <div className={HeaderCss.all}>
-                     <div className={HeaderCss.a}>  <a >立即登录 <div className={HeaderCss.a1}><div className={HeaderCss.login}><div className={HeaderCss.loginlogo}><img src={photo} width='30px' height='30px' /></div><div className={HeaderCss.btn}><a href="/login" >请登录</a></div><div className={HeaderCss.btn}><a href="/RegisterPage">找回密码</a></div></div></div> </a></div>
+                     <div className={HeaderCss.a}>  <a href='/login'>立即登录 <div className={HeaderCss.a1}><div className={HeaderCss.login}><div className={HeaderCss.loginlogo}><img src={photo} width='30px' height='30px' /></div><div className={HeaderCss.btn}><a href="/login" >请登录</a></div><div className={HeaderCss.btn}><a href="/findpage">找回密码</a></div></div></div> </a></div>
                      <div className={HeaderCss.b}>  <a href='/RegisterPage'>注册</a>   </div>
                      <div className={HeaderCss.c}>  <a href='/wallet'>我的信息</a></div>
                      <div className={HeaderCss.d}>  <a href='/PersonMessage/permeg'>我的订单</a></div>
