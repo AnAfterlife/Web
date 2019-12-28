@@ -1,9 +1,13 @@
 import React from 'react'
 import { Icon } from 'antd'
+import { Carousel } from 'antd';
+import LubBoTu from './../LunBoTu/lunbotu'
 var CommodityCss = require('./commodity.css')
-export default class CommodityPage extends React.Component {
-        
+export default class CommodityPage extends React.Component {    
     render() {
+        function onChange(a, b, c) {
+            console.log(a, b, c);
+          }
         return (
             <div>
                 <div className={CommodityCss.header}>
@@ -19,12 +23,14 @@ export default class CommodityPage extends React.Component {
                     </div>
                 </div>
                 <div className={CommodityCss.slideshow}>
-                    <div className={CommodityCss.container}>
-                        
-                    </div>
-                        
+                    <LubBoTu></LubBoTu>
                 </div>
+                <div className={CommodityCss.introduce}>
+                <div className={CommodityCss.introduce1}>商品名称</div>
             </div>
-                                        )
-                                    }
+                </div>
+                
+
+               )
+         }
 }
