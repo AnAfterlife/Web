@@ -1,69 +1,51 @@
-.warp{
-    box-sizing: border-box;
-    height: 100vh;
-    /* background: url(../img/beautif.png) no-repeat center; */
-    background-size: auto 100vh;
-    position: relative;
+.login1{
+    height: 1000px;
+    width: 92px;
+    position: absolute !important;
+    float: left;
 }
-.wpn{
-    width: 1180px;
-    margin: 0 auto;
+.login2{
+    background-image: url(./../背景图1.jpg);
+    height: 1000px;
+    width: 1879;
 }
-.formtop{
-    background-color: white;
-    width: 460px;
-    left: 50%;
-    margin-left: -230px;
-    border-radius: 5px;
-    box-shadow: 0 0 30px rgba(0,0,0,.1);
-    padding: 65px 0 30px 0;
-    position: fixed;
-    top: 15%;
+.loginheader{
+    height:40px ;
+    width: 280px;
+    float: right;
+    margin-top: 30px;
+    margin-right: 730px;
+    font-size: 35PX;
+    font-style: unset ;
 }
-.headlogo{
-    position:absolute;
-    top: -50px;
-    left: 100px;
-}
-.formtop,headlogo{
-    position: absolute;
-    top: 200px;
-    left: 700px;
-}
-.form{
-    border: none;
-    display: center;
-}
-.formtop,form{
-    outline: none;
-    border: none;
-    z-index: 5;
-    position: absolute;
-    top: 200px;
-    left:700px;
-    width: 340px;
-    background-color: transparent;
-    font-size: 20px;
-}
-.buttom{
-   color: #000;
+.biaoge{
+    height: 350px;
+    width: 520px;
+    float: left;
+    margin-top: 200px;
+    margin-left: 768px;
 }
 .tg{
-    width: 300px;
+    width: 450px;
     height: 50px;
    
 }
-.left{
-    float: left;
+.tg1{
+    font-size: 20px;
+    font-style: normal;
+    text-align: center;
 }
-.right{
-    float: right;
+.submit{
+    border: 1px #3083ff solid;
+    border-radius:4px;
+    background-color:#3487ff;
+    box-shadow:0 5px 8px 0 rgba(24,95,255,.1);
+    color:#fff;
+    text-align:center;
+    font-weight:lighter;
+    background-image:linear-gradient(0deg,#398bff,#3083ff);
+    width:250px;
+    height:60px;
+    margin:40px 0 8px;
+    font-size:24px
 }
-.last{
-    position: absolute;
-    width: 340px;
-    height: 50px;
-    top: 350px;
-}
-
-
