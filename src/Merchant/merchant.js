@@ -34,6 +34,8 @@ export default class Merchant1 extends React.Component{
                             <div className={Merchant.header8}><Icon type="heart" style={{ fontSize: '30px', color: '#08c' }} /></div>
                             <div className={Merchant.header8}><Icon type="audio" style={{ fontSize: '30px', color: '#08c' }} /></div>
                             <div className={Merchant.header9}><Button type="primary">发送</Button></div>
+                            <div className={Merchant.textarea}><textarea rows="6.7" cols="110"  maxlength="50" color="pink">请输入您想说的话</textarea></div>
+                            
                            </div>
                     </div>
                     </div>
