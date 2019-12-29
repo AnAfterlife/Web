@@ -1,6 +1,7 @@
 import React from 'react';
 import { Button, Input } from 'antd';
 import { Avatar } from 'antd';
+import {Pagination} from 'antd';
 import { Carousel } from 'antd';
 import { Link } from 'react-router-dom'
 import { BackTop } from 'antd';
@@ -146,6 +147,9 @@ class GoodsPage extends React.Component {
                         </div>
                     </div>
                 </div>
+                <div className={GoodsCss.yema}>
+                  <Pagination defaultCurrent={1} total={50} />
+                </div>
                 <div className={GoodsCss.picture}>
                     <Link to='/'><div className={GoodsCss.picture1}></div></Link>
                     <Link to='/'><div className={GoodsCss.picture2}></div></Link>
@@ -160,7 +164,7 @@ class GoodsPage extends React.Component {
                     <BackTop />
                     <strong style={{ color: 'rgba(219, 126, 126,0.6)' }}> </strong>
                 </div>
-                
+
             </div>
         )
     }

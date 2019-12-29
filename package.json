@@ -3,7 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "homepage": ".",
+<<<<<<< HEAD
   "proxy":"http://localhost:8080/",
+=======
+  "proxy": "https://localhost:8080/",
+>>>>>>> a868edbbe6959e978fc1a2d0499b8f35c03ca9c8
   "dependencies": {
     "antd": "^3.19.8",
     "babel-plugin-import": "^1.13.0",

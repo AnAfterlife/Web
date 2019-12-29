@@ -146,6 +146,10 @@ p {
     height: 100px;
     background-image: url(./../img/userd.jpg);
 }
+.yema{
+    display: flex;
+    justify-content: center;
+}
 .bottom{
     width: 500px;
     height: 400px;
