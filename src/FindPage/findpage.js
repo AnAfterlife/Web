@@ -1,9 +1,9 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
-import { Button} from 'antd';
+import { Button,Input,message} from 'antd';
 var findpagecss = require('./findpage.css')
 
-export default class register extends React.Component {
+export default class findpage extends React.Component {
     constructor(props){
         super(props);
         this.state={}
@@ -49,10 +49,10 @@ export default class register extends React.Component {
                 <div className={findpagecss.loginheader1}>
                 <table className={findpagecss.biaoge}>
                     <p><input type="text" name="stuID" placeholder="学号" className={findpagecss.tg} value={this.state.stuID} onChange={e=>this.changeValue(e)}></input></p>
-                    <p><input type="text" name="password" placeholder="旧密码" className={findpagecss.tg} value={this.state.password} onChange={e=>this.changeValue(e)}></input></p>       
-                    <p><input type="text" name="newpassword" placeholder="新密码" className={findpagecss.tg} value={this.state.newpassword} onChange={e=>this.changeValue(e)}></input></p>
-                    <p><input type="text" name="newpassword1" placeholder="确认密码" className={findpagecss.tg} value={this.state.newpassword1} onChange={e=>this.changeValue(e)}></input></p>
-                    <p><Link to='/login'><Button className={findpagecss.tijiao} type="button"  >提交</Button></Link> </p>      
+                    <p><Input.Password type="text" name="password" placeholder="旧密码" className={findpagecss.tg} value={this.state.password} onChange={e=>this.changeValue(e)}></Input.Password></p>
+                    <p><Input.Password type="text" name="newpassword" placeholder="新密码" className={findpagecss.tg} value={this.state.newpassword} onChange={e=>this.changeValue(e)}></Input.Password></p>
+                    <p><Input.Password type="text" name="newpassword1" placeholder="确认密码" className={findpagecss.tg} value={this.state.newpassword1} onChange={e=>this.changeValue(e)}></Input.Password></p>
+                    <p><Link to='/login'><Button className={findpagecss.tijiao} type="button"  >提交</Button></Link> </p> 
                 </table>
                 </div>
                 </div>
