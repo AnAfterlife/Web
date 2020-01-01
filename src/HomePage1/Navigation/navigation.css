@@ -1,0 +1,23 @@
+
+.all{
+  
+    display: flex;
+}
+.btntwo{
+    
+    width: 211px;
+   
+    text-align: center;
+    display: block;
+    font-size: 18px;
+    transition: 0.5s;
+    color: #bf095f;
+    margin-left: 175px;
+   
+}
+.btntwo:hover {
+    transition: 0.5s;
+    color: #ffffff;
+     background: rgb(255,216,77);
+     border-radius: 5px;
+}

@@ -6,7 +6,9 @@ var RegisterPagecss= require('./RegisterPage.css')
 export default class RegisterPage extends React.Component{
     constructor(props){
         super(props);
-        this.state={}
+        this.state={
+            
+        }
     }
     changeValue=(e)=>{
    this.setState({
@@ -79,7 +81,7 @@ export default class RegisterPage extends React.Component{
                 <p><Input type="age" name="age" placeholder="年龄"className={RegisterPagecss.tg} value={this.state.age} onChange={e=>this.changeValue(e)}/></p>
                 <p><Input type="gender" name="gender" placeholder="性别"className={RegisterPagecss.tg} value={this.state.gender} onChange={e=>this.changeValue(e)}/></p>
 
-                <p><Button  onClick={this.upload()}  className={RegisterPagecss.submit}>注册</Button><span><input type="checkbox" onClick= ""></input>es<lable className={RegisterPagecss.checkbox}>我已阅读并同意相关条款</lable></span></p>
+                <p><Button  onClick={this.upload()}  className={RegisterPagecss.submit}>注册</Button><span><input type="checkbox" onClick= ""></input><lable className={RegisterPagecss.checkbox}>我已阅读并同意相关条款</lable></span></p>
                 </table>
                 </div>
                 </div>
