@@ -4,18 +4,6 @@ import{Link} from 'react-router-dom';
 var RegisterPagecss= require('./RegisterPage.css')
 
 export default class RegisterPage extends React.Component{
-<<<<<<< HEAD
-    constructor(props){
-        super(props);
-        this.state={
-            
-        }
-    }
-    changeValue=(e)=>{
-   this.setState({
-       [e.target.name]:e.target.value
-   })
-=======
     //声明state
      constructor(props){
       super(props)//初始化
@@ -37,7 +25,6 @@ rst=()=>{
        "email":this.state.email,
        "age":this.state.age,
        "gender":this.state.gender
->>>>>>> af6ce7c9134d2b893f866cc50fb183540933c26b
     }
     //open连接
     xhr.open("post","/user/register")
