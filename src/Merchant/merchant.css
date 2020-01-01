@@ -13,8 +13,8 @@
     width: 100%;
     background-size:100% 100%; 
     background-attachment:fixed;
-    padding-top: 75px;
-    height: 1000px;
+    padding-top: 72px;
+    height: 100px;
 }
 .header1{
     background-color: rgb(19, 18, 18);
@@ -61,11 +61,14 @@
     margin-top: -22px;
     float: right;
     margin-right: -50px; 
-   opacity: 1;
+   
+   opacity:0.3;
+  filter:alpha(opacity=30);
 }
 .close :hover{
     background-color: rgb(158, 154, 154);
-    opacity: 0.8;
+    opacity:1.0;
+    filter:alpha(opacity=100);
     width:15px;
     height:15px;
     border-radius: 50%;
@@ -135,12 +138,13 @@
     width: 905px;
     height: 166px;
     border: 1px solid rgb(156, 155, 156);
-    background-color: alic eblue;
+    border-top: none;
+    background-color: aliceblue;
     border-bottom-right-radius: 60px;
 }
 .header7{
     width: 900px;
-    height: 30px;
+    height: 35px;
     display: flex;
 }
 .header8{
@@ -148,9 +152,12 @@
     padding-left: 20px;
 }
 .header9{
-    width: 100px;
-    height: 50px;
     float: right;
-    padding-left: 450px;
-    padding-top: 120px;
+    margin-left: 510px;
+}
+.textarea{
+    position: absolute;
+    margin-top: 33px;
+    color:pink;
+    float: left;
 }

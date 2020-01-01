@@ -2,7 +2,7 @@ import React from 'react'
 
 import{Link} from 'react-router-dom';
 import Input  from './../Input/input';
-import { Icon, Spin } from 'antd';
+import { Icon, Spin, Button, message } from 'antd';
 import GoodlistPage from './Goodlist/goodlist'
 import LubBoTu from './../LunBoTu/lunbotu'
 import Goods from './../Goods/goods'
@@ -13,6 +13,7 @@ import { List, Typography } from 'antd';
 import { Divider } from 'antd';
 import CenterPage from '../Center/center';
 import { BrowserRouter,Route } from 'react-router-dom/cjs/react-router-dom.min';
+import Axios from 'axios';
 
 const data = [
   'Racing car sprays burning fuel into crowd.',
@@ -30,10 +31,52 @@ export default class homepage extends React.Component{
       super(props);
       this.state={}
     }
-    changeValue=(id)=>{
-      this.setState({
-          [id.target.name]:id.target.value
-      })
+    
+    // changeValue=(id)=>{
+    //   this.setState({
+    //       [id.target.name]:id.target.value
+    //   })
+    //    }
+    
+       refresh=()=>{
+        var xhr = new XMLHttpRequest()
+       var data={
+         "id":this.state.id,
+         "name":this.state.name
+       }
+        var list=
+          [{
+            id:1,
+            name:"电子产品",
+        },{
+            id:2,
+            name:"学习用品"
+        },{
+            id:3,
+            name:"生活用品"
+        },{
+            id:4,
+            name:"常用品"
+        },{
+            id:5,
+            name:"卫生"
+        },{
+            id:6,
+            name:"你爸爸"
+        },{
+           id:7,
+           name:"哈和"
+       }
+       ]
+        
+      Axios.post({
+        url:"",
+        data:JSON.stringify(data)
+      }).then(
+        message.info()
+      )
+
+
        }
     // show =(id)=>{
               
@@ -63,6 +106,7 @@ export default class homepage extends React.Component{
     //     }
       
     render(){
+     
         return(
             <div className={homepagecss.top1}>
                
@@ -72,7 +116,7 @@ export default class homepage extends React.Component{
                
         
                 <div className={homepagecss.one}>
-                <div className={homepagecss.tuh}><div className={homepagecss.tuh1}><div className={homepagecss.goodslist}><Link><div><Icon type="unordered-list" />商品分类</div><div  className={homepagecss.list}><GoodlistPage/></div></Link>
+                <div className={homepagecss.tuh}><div className={homepagecss.tuh1}><div className={homepagecss.goodslist}><a onClick={this.refresh()}><div><Icon type="unordered-list" />商品分类</div></a><div  className={homepagecss.list}><GoodlistPage/></div>
                {/* <ul>
                     <li className={homepagecss.a}><a>电子产品 <div className={homepagecss.pagea}> <p>
      手机 电脑
