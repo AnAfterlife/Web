@@ -19,7 +19,7 @@ export default class login extends React.Component{
             [e.target.name]:e.target.value
         })
          }
-     upload=()=>{
+     login=()=>{
          var cxx=new XMLHttpRequest()
          var data={
              "stuID":this.state.stuID,
@@ -63,7 +63,7 @@ export default class login extends React.Component{
                     <div className={logincss.login}>
                     <table className={logincss.biaoge} >
                     <p><Input prefix={<Icon type="user" ></Icon>} type="text" name="stuID" placeholder="用户名" className={logincss.tg} value={this.state.stuID} onChange={e=>this.changeValue(e)}/></p>
-                    <p><Input type="text" name="password" placeholder="密码" className={logincss.tg} prefix={<Icon type="unlock" />} value={this.state.password} onChange={e=>this.changeValue(e)}/></p>
+                    <p><Input.Password type="text" name="password" placeholder="密码" className={logincss.tg} prefix={<Icon type="unlock" />} value={this.state.password} onChange={e=>this.changeValue(e)}/></p>
                     <p><Input className={logincss.submit} type="submit" value="登录" onClick= {this.login}></Input><span><input type="checkbox" ></input><lable className={logincss.checkbox}>我已阅读并同意相关条款</lable></span></p>       
                     </table>
                     </div>
