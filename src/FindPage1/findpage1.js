@@ -25,7 +25,7 @@ export default class register extends React.Component{
             "password":this.status.password
         }
         //2,打开链接,与后台数据路径不匹配暂时未写路径
-        xhr.open("post","/user/findpage1",true)
+        xhr.open("post","/user/alterpassword",true)
         //3，配置相应函数 ==4代表已经成功接收到数据 200==success
         xhr.onreadystatechange=function name(params) {
             if(xhr.readyState==4){

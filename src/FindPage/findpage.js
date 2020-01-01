@@ -13,6 +13,16 @@ export default class findpage extends React.Component {
        [e.target.name]:e.target.value
    })
     }   
+   // 模拟后台数据
+    // getAlterpasswordList(){
+    //     let dataList[{
+    //         stuID:"11",
+    //         password:"222",
+
+    //     }]
+    //     return dataList;
+    // } 
+    
     upload =()=>{
      
         var xhr = new XMLHttpRequest()
