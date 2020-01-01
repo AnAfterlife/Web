@@ -1,85 +1,44 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
+import { Button} from 'antd';
 var findpagecss = require('./findpage.css')
 
 export default class register extends React.Component {
+    constructor(props){
+        super(props);
+        this.state={}
+    }
+    changeValue=(e)=>{
+   this.setState({
+       [e.target.name]:e.target.value
+   })
+    }   
+    upload =()=>{
+     
+        var xhr = new XMLHttpRequest()
+        var data={
+            "stuID":this.state.stuID,
+            "password":this.state.password, 
+            "newpassword":this.state.newpassword,
+            "newpassword1":this.state.newpassword1
+        }
+        xhr.open("post","/user/alterpassword")
 
-
-    // $(function (){
-    //     $(".passinbut").click(function(){
-    //         var id=getCookie("id");
-    //         var password=$(".aginpassword").val();
-    //         var ypassword=$("#inputPassword").val();
-    //         var npassword=$(".newspassword").val();
-    //         if(password=='' || password==null && ypassword=='' || ypassword==null && npassword=='' || npassword==null){
-    //             layer.msg('密码不能为空');
-    //         }else{
-    //             oldPassword(id,ypassword)
-    //         }
-            
-    //     });
-    // })
-    
-    // //原码判断
-    // function oldPassword(id,ypassword){
-    //         $.ajax({
-    //             url:"/hospitalmanage/user/getuserpas.do",
-    //             type:"post",
-    //             dataType:"json",
-    //             data:{
-    //                 "id":id,
-    //                 "password":ypassword
-    //             },
-    //             success:function(data){
-    //                 console.log(data)
-    //                 if(data.data==true){
-    //                     passSubmission();
-    //                 }else{
-    //                     layer.msg('原密码有误');
-    //                     return
-    //                 }
-                    
-    //             }
-    //         });
-    // }
-    
-    // //新码判断
-    // function passSubmission(){
-    //     var id=getCookie("id");
-    //     var password=$(".aginpassword").val();
-    //     var npassword=$(".newspassword").val();
-    //      if(password != npassword){
-    //         layer.msg('两次密码输入不一致！');
-    //         return;
-    //     }else{
-    //         loadingSubmission(id,password);
-    //     }
-    // }
-    // function loadingSubmission(id,password){
-    //     $.ajax({
-    //         url:"/hospitalmanage/user/alertpas.do",
-    //         type:"post",
-    //         dataType:"json",
-    //         data:{
-    //             "num":id,
-    //             "password":password
-    //         },
-    //         success:function(data){
-    //             if(data.state==0){
-    //                 layer.confirm('密码修改成功', {
-    //                       btn: ['确定'] //按钮
-    //                     }, function(){
-    //                         window.history.back(-1);
-    //                     });
-    //                 $(".aginpassword").val("");
-    //                 $(".newspassword").val("");
-    //                 $("#inputPassword").val("");
-    //             }else{
-    //                 layer.msg('密码修改失败');
-    //             }
-    //         }
-    //     });
-    // }
+        xhr.onreadystatechange=function () {
+            if (this.state.stuID!=this.state.password) {
+                console.log("原密码错误！")
+            } else if(this.state.newpassword!=this.state.newpassword1){
+                console.log("两次密码不一样！")
+            }else if(this.state.newpassword==this.state.password){
+                console.log("与原密码相同！")
+            }else{
+                console.log("修改成功！")
+            }
+        }
+        xhr.setRequestHeader('content-type','application/json');
+        xhr.send(JSON.stringify(data))
+       
+    }
     render() {
         return (
             <div className={findpagecss.login}>
@@ -89,10 +48,11 @@ export default class register extends React.Component {
                 </div>
                 <div className={findpagecss.loginheader1}>
                 <table className={findpagecss.biaoge}>
-                    <p><input type="text" name="username" placeholder="用户名" className={findpagecss.tg}></input></p>
-                    <p><input type="text" name="password" placeholder="邮箱" className={findpagecss.tg}></input></p>
-                    <p><input type="text" name="password" placeholder="验证码" className={findpagecss.tg1}></input><Link to='/findpage1'><button className={findpagecss.tijiao} type="button"  >提交</button></Link> </p>
-                    
+                    <p><input type="text" name="stuID" placeholder="学号" className={findpagecss.tg} value={this.state.stuID} onChange={e=>this.changeValue(e)}></input></p>
+                    <p><input type="text" name="password" placeholder="旧密码" className={findpagecss.tg} value={this.state.password} onChange={e=>this.changeValue(e)}></input></p>       
+                    <p><input type="text" name="newpassword" placeholder="新密码" className={findpagecss.tg} value={this.state.newpassword} onChange={e=>this.changeValue(e)}></input></p>
+                    <p><input type="text" name="newpassword1" placeholder="确认密码" className={findpagecss.tg} value={this.state.newpassword1} onChange={e=>this.changeValue(e)}></input></p>
+                    <p><Link to='/login'><Button className={findpagecss.tijiao} type="button"  >提交</Button></Link> </p>      
                 </table>
                 </div>
                 </div>
