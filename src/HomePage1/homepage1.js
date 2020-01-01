@@ -9,6 +9,7 @@ import Goods from './../Goods/goods'
 import List from './Goodlist/List/list'
 import BottomPage from '../bottom/bottom'
 import SearchPage from './Search/searchpage'
+import Navigation from '../HomePage1/Navigation/navigation'
 import Message from '../HomePage1/Navigation/Message/message'
 // import {Avatar} from 'antd'
 import { Typography } from 'antd';
@@ -72,7 +73,6 @@ export default class homepage extends React.Component{
                
         
                 <div className={homepagecss.one}>
-<<<<<<< HEAD
                 <div className={homepagecss.tuh}>
                   <div className={homepagecss.tuh1}>
 
@@ -88,29 +88,6 @@ export default class homepage extends React.Component{
                  <Route path="/message" component={Message}></Route>
                  </BrowserRouter>
                </div></div>
-=======
-                <div className={homepagecss.tuh}><div className={homepagecss.tuh1}><div className={homepagecss.goodslist}><a onClick={this.refresh()}><div><Icon type="unordered-list" />商品分类</div></a><div  className={homepagecss.list}><GoodlistPage/></div>
-               {/* <ul>
-                    <li className={homepagecss.a}><a>电子产品 <div className={homepagecss.pagea}> <p>
-     手机 电脑
-    </p>
-    <Divider />
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nonne merninisti licere mihi ista
-      probare, quae sunt a te dicta? Refert tamen, quo modo.
-    </p>
-    <Divider dashed />
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nonne merninisti licere mihi ista
-      probare, quae sunt a te dicta? Refert tamen, quo modo.
-    </p></div></a></li>
-                    <li className={homepagecss.b}><a>学习用品 <div className={homepagecss.pageb}>啥比</div></a></li>
-                    <li>生活用品</li>
-                    <li>生活用品</li>
-                </ul> */}
-           
-    </div><a href='/' className={homepagecss.btntwo}>首页</a><a className={homepagecss.btntwo}>最新商品</a><a className={homepagecss.btntwo}><Link to="/">商品推荐</Link></a><a className={homepagecss.btntwo}>发布商品</a><a className={homepagecss.btntwo}>最新消息</a></div></div>
->>>>>>> af6ce7c9134d2b893f866cc50fb183540933c26b
                
 
                 <div className={homepagecss.tu1}><LubBoTu></LubBoTu></div>
