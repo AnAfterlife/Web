@@ -17,6 +17,7 @@ import Issuse from './Issuse/issuse';
 import PersonMessage from './PersonMessage/permeg';
 import CommodityPage from './Commodity/commodity';
 import UsPage from './bottom/Us/us';
+import Release from './Release/release';
 
 
 class IndexPage extends React.Component{
