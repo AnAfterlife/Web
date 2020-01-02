@@ -9,6 +9,7 @@ import {BrowserRouter,Route,Switch,Redirect} from 'react-router-dom';
 import Merchant from './Merchant/merchant';
 import HomePage1 from './HomePage1/homepage1';
 import homepage from './HomePage1/homepage1';
+
 import Header from'./Header/header';
 import Review from './Review/review';
 import Wallet from './InterPerson/Wallet/wallet'
@@ -54,6 +55,8 @@ class IndexPage extends React.Component{
                         <Route path='/release' component={Release}></Route>
                         <Route path='/comment' component={Comment}></Route>
 
+                        <Route path='/us' component={UsPage} history={this.props.history}></Route>
+                      
                     </Switch>
                 </BrowserRouter>
             </div>

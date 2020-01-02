@@ -1,0 +1,29 @@
+.location{
+    position: absolute;
+    margin-top: 40px;
+    border-radius: 5px;
+    background-color:rgb(255,216,77) ;
+    width: 200px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+   
+}
+.position{
+    position: absolute;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+.location li{
+   
+     height: 40px;
+}
+
+.location li :hover{
+    color: lightcyan;
+    background-color: black;
+    border-radius: 5px;
+}

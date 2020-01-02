@@ -4,6 +4,9 @@ import Product from  './../Product/product'
 var CenterPageCss=require('./center.css')
 
 export default class CenterPage extends React.Component{
+
+
+
     render(){
         return(
             <div>
