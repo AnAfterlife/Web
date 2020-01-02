@@ -92,13 +92,9 @@ export default class homepage extends React.Component{
                     <li>生活用品</li>
                 </ul> */}
            
-<<<<<<< HEAD
-    </div></div></div><a href='/' className={homepagecss.btntwo}>首页</a><a className={homepagecss.btntwo}>最新商品</a><a className={homepagecss.btntwo}>商品推荐</a><a href="/release" className={homepagecss.btntwo}>发布商品</a><a className={homepagecss.btntwo}>最新消息</a></div></div>
-=======
-    </div><a href='/' className={homepagecss.btntwo}>首页</a><a className={homepagecss.btntwo}>最新商品</a><a className={homepagecss.btntwo}><Link to="/">商品推荐</Link></a><a className={homepagecss.btntwo}>发布商品</a><a className={homepagecss.btntwo}>最新消息</a></div></div>
+    </div><a href='/' className={homepagecss.btntwo}>首页</a><a className={homepagecss.btntwo}>最新商品</a><a className={homepagecss.btntwo}><Link to="/">商品推荐</Link></a><a href="/release" className={homepagecss.btntwo}>发布商品</a><a className={homepagecss.btntwo}>最新消息</a></div></div>
                
 
->>>>>>> a868edbbe6959e978fc1a2d0499b8f35c03ca9c8
                 <div className={homepagecss.tu1}><LubBoTu></LubBoTu></div>
                 <Divider></Divider>
                <div> <CenterPage/></div>

@@ -19,6 +19,7 @@ import UsPage from './bottom/Us/us';
 import Release from './Release/release';
 
 
+
 class IndexPage extends React.Component{
     render(){
         return(
@@ -51,6 +52,7 @@ class IndexPage extends React.Component{
                         <Route path='/commodity' component = {CommodityPage}></Route>
                         <Route path='/us' component={UsPage}></Route>
                         <Route path='/release' component={Release}></Route>
+                      
                     </Switch>
                 </BrowserRouter>
             </div>

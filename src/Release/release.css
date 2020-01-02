@@ -43,6 +43,11 @@ padding-top: 100px;
   float: right;
 }
 .pull{
-margin-top: 200px;
-margin-left: 330px;
+margin-top: 300px;
+margin-left: 180px;
+}
+.detail{
+  width: 700px;
+  float: left;
+  margin-top: 50px;
 }

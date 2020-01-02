@@ -19,7 +19,7 @@ rst=()=>{
     //XHR
     var xhr = new XMLHttpRequest()//设置对象
     var data={
-        "stuId":this.state.username,
+        "stuId":this.state.stuId,
         "username":this.state.username,
         "password":this.state.password,
        "email":this.state.email,
