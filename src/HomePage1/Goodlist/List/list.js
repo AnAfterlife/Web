@@ -1,4 +1,5 @@
 import React from 'react'
+import { Button } from 'antd'
 
 
 
@@ -9,9 +10,11 @@ export default class List extends React.Component{
        
         return(
          
-                <div>
-                 <p className={ListCss.location} >{ this.props.list.name}</p>
+                <div className={ListCss.location}>
+                 <p>{this.props.list.id}</p>
+                
                  </div>
+                 
         )
     }
 }

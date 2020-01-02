@@ -1,0 +1,19 @@
+.list{
+     
+    position: absolute;
+    right: 0;
+    width: 200px;
+    height: 600px;
+    margin-top: 40px;
+    background-color: violet;
+    
+  
+ 
+}
+.big{
+     position: relative;
+    width: 50px;
+    height: 20px;
+    
+    background-color: yellow;
+}

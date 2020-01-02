@@ -1,0 +1,163 @@
+.totalpage1{
+    width: 1133px;
+    height: 852px;
+    margin:auto;
+    margin-top: -20px;
+    background-color:rgb(248, 241, 241);
+    display: flex;
+    border-radius: 60px;
+    border: 1px solid gray;
+}
+.totalpage{
+    /* background-image: url('./self.jpg'); */
+    width: 100%;
+    background-size:100% 100%; 
+    background-attachment:fixed;
+    padding-top: 72px;
+    height: 100px;
+}
+.header1{
+    background-color: rgb(19, 18, 18);
+    font-size: 20px;
+    height:98px;
+    width: 180px;
+    border-radius: 60px;
+    margin-top: 1px;
+    margin-left: 10px;
+    padding-top: 15px;
+    padding-left: 16px;
+    color: white;
+}
+.header{
+    width: 230px;
+    height: 852px;
+    border-bottom-left-radius: 60px;
+    border-top-left-radius: 60px;
+   background-color: rgb(12, 3, 61);
+    
+}
+.header2{
+    height:60px;
+    width: 228px;
+    border: 1px solid gray;
+    background-color: rgb(128, 127, 123);
+    
+}
+.self{
+    padding-top: 6px;
+}
+
+.title{
+    width: 180px;
+    height: 25px;
+    margin-top: -30px;
+    margin-left: 45px;
+}
+.span{
+    color: white;
+    font-weight: bold;
+}
+.span1 {
+    margin-top: -22px;
+    float: right;
+    margin-right: -50px; 
+   
+   opacity:0.3;
+  filter:alpha(opacity=30);
+}
+.close :hover{
+    background-color: rgb(158, 154, 154);
+    opacity:1.0;
+    filter:alpha(opacity=100);
+    width:15px;
+    height:15px;
+    border-radius: 50%;
+}
+.i{
+    margin-top: -1px;
+    float: right;
+    border: 1px solid orange;
+    width: 50px;
+    height: 25px;
+    font-size: 15px;
+    text-align: center;
+    -webkit-box-shadow: orange 0px 0px 0px;
+    -moz-box-shadow:orange 0px 0px 0px;
+    box-shadow: orange 0px 0px 0px;
+    color:orange;
+}
+.p{
+    width: 60px;
+    margin-top: -1px;
+   color: rgb(143, 141, 138);
+   font-family: '宋体';
+   font-size: 10px;
+   font-weight: bold;
+}
+.header3{
+    width: 903px;
+    height: 80px;
+    border-bottom: 1px solid rgb(226, 193, 193);
+    border-left: 1px solid rgb(226, 193, 193);
+    border-top-right-radius: 60px;
+    float: left;
+    font-size: 30px;
+    background-color:rgb(248, 241, 241);
+}
+.self1{
+    width: 60px;
+    height: 25px;
+    font-size: 15px;
+    text-align: center;
+    margin-left: 50px;
+    margin-top: 30px;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(255, 115, 0);
+}
+.p2{
+    width: 120px;
+    margin-left: 130px;
+    margin-top: -35px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+.header4{
+    width: 903px;
+    height: 686px;
+    text-align: center;
+    font-size: 35px;
+    background-color:rgb(248, 241, 241);
+    border-radius: 60px;
+}
+.header5{
+    display: none;
+}
+.header6{
+    width: 905px;
+    height: 166px;
+    border: 1px solid rgb(156, 155, 156);
+    border-top: none;
+    background-color: aliceblue;
+    border-bottom-right-radius: 60px;
+}
+.header7{
+    width: 900px;
+    height: 35px;
+    display: flex;
+}
+.header8{
+    width: 70px;
+    padding-left: 20px;
+}
+.header9{
+    float: right;
+    margin-left: 510px;
+}
+.textarea{
+    position: absolute;
+    margin-top: 33px;
+    color:pink;
+    float: left;
+}

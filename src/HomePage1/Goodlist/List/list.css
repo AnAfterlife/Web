@@ -1,13 +1,14 @@
 
-.all{
-   
-   background-color: cyan;
-   position: absolute;
-  
-}
 .location{
+   position: relative;
+  
+    
+    background-color: red;
    
    border-radius: 5px;
   background-color:rgb(255,216,77);
   
+}
+.location :hover{
+   color: azure;
 }

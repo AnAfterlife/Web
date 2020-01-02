@@ -1,20 +1,21 @@
 .header{
     width: 1200px;
-    height: 101px;
+    height: 131px;
     float: left;
     margin-left: 330px;
     margin-top: 50px;
     
 }
 .logo{
-    height: 100px;
-    width: 300px;
+    height: 130px;
+    width: 400px;
     float: left;
+    
 }
 .logo1{
-    width: 100px;
-    height: 100px;
-    background-image: url("./../img/pt1.png");
+    width: 150px;
+    height: 130px;
+   
     float: left;
 }
 .text{
@@ -28,10 +29,11 @@
     font-variant: small-caps;
     color: rgb(206, 90, 61);
     margin-left: 50px;
+    margin-top: 30px;
 }
 .header1{
     height: 20px;
-    width: 390px;
+    width: 450px;
     float: right;
     display: flex;
     margin-top: 30px;
@@ -70,6 +72,7 @@
       width: 700px;
       height: 550px;
       margin-right: 330px;
+      margin-bottom: 70px;
       float: right;
   }
   .introduce1{
@@ -87,7 +90,7 @@
   .introduce3{
       width: 700px;
       height: 120px;
-      background-color: rgb(247, 242, 240);
+      background-color: rgb(241, 233, 229);
       border: solid 1px rgb(243, 241, 245);
       margin-top: 20px;
       
@@ -104,3 +107,29 @@
   .introduce6{
       width: 100%;
   }
+  .picture{
+    width: 1350px;
+    height: 160px;
+    display: flex;
+    margin-left: 265px;
+}
+.picture1{
+    width: 333px;
+    height: 100px;
+    background-image: url(./../img/优.jpg);
+}
+.picture2{
+    width: 337.5px;
+    height: 100px;
+    background-image: url(./../img/三.jpg);
+}
+.picture3{
+    width: 337.5px;
+    height: 100px;
+    background-image: url(./../img/官.jpg);
+}
+.picture4{
+    width: 328px;
+    height: 100px;
+    background-image: url(./../img/userd.jpg);
+}
