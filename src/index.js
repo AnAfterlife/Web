@@ -17,6 +17,7 @@ import PersonMessage from './PersonMessage/permeg';
 import CommodityPage from './Commodity/commodity';
 import UsPage from './bottom/Us/us';
 import Release from './Release/release';
+import Comment from './Comment/comment'
 
 
 class IndexPage extends React.Component{
@@ -51,6 +52,8 @@ class IndexPage extends React.Component{
                         <Route path='/commodity' component = {CommodityPage}></Route>
                         <Route path='/us' component={UsPage}></Route>
                         <Route path='/release' component={Release}></Route>
+                        <Route path='/comment' component={Comment}></Route>
+
                     </Switch>
                 </BrowserRouter>
             </div>

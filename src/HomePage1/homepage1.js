@@ -111,7 +111,7 @@ export default class homepage extends React.Component{
             <div className={homepagecss.top1}>
                
               <SearchPage/>
-              <BrowserRouter>
+            
                 <div className={homepagecss.all}>  
                
         
@@ -150,7 +150,7 @@ export default class homepage extends React.Component{
                 
                 </div>
                 <Route path="/goodlist" component={GoodlistPage}></Route>
-                </BrowserRouter>
+                
              
                 
             </div>
