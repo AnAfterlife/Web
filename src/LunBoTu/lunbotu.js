@@ -9,6 +9,7 @@ export default class LunBoTu extends React.Component{
        
     render(){
         return(
+           
             <Carousel autoplay>
     <div>
     <img src={picture1 } className={LunBoTu1.photo}/>
