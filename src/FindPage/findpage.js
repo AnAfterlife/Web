@@ -55,6 +55,7 @@ export default class findpage extends React.Component {
         }
         // 判断语句
         // xhr.onreadystatechange=function () {
+            // if(xhr.readyState==4){
         //     if (this.state.stuID!=this.state.password) {
         //         console.log("原密码错误！")
         //     } else if(this.state.newpassword!=this.state.newpassword1){
@@ -65,6 +66,7 @@ export default class findpage extends React.Component {
         //         console.log("修改成功！")
         //     }
         // }
+            // }
         xhr.setRequestHeader('content-type','application/json');
         xhr.send(JSON.stringify(data))
        
