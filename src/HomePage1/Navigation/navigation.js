@@ -36,7 +36,7 @@ export default class Navigation extends React.Component{
              <a href='/' className={NavigationCss.btntwo}>首页</a>
            <a href='/' className={NavigationCss.btntwo } >最新商品</a>
             <a  href='/' className={NavigationCss.btntwo}>商品推荐</a>
-            <a href='/' className={NavigationCss.btntwo}>发布商品</a>
+            <a href='/release' className={NavigationCss.btntwo}>发布商品</a>
           
       <Link to='/message'><a className={NavigationCss.btntwo}>最新消息</a></Link>
           

@@ -158,6 +158,8 @@
 .textarea{
     position: absolute;
     margin-top: 33px;
-    color:pink;
+    background-color:pink;
     float: left;
+    width: 905px;
+    height: 133px;
 }

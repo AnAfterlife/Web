@@ -1,10 +1,47 @@
 import React from 'react'
 import {Link,BrowserRouter,Route} from 'react-router-dom'
-import { Avatar,Icon,Button } from 'antd';
+import { Avatar,Icon,Button,Input,message} from 'antd';
 import logo from "../img/pt1.png"
 import HyperTextInput from '../HyperTextInput/enjoy';
 var Merchant = require('./merchant.css')
 export default class Merchant1 extends React.Component{
+    constructor(props){
+        super(props)//初始化
+        this.state={}
+  }
+  changeValue=(e)=>{
+    this.setState({
+        [e.target.name]:e.target.value
+    })
+    }
+    merchant=()=>{
+        var xhr = new XMLHttpRequest()
+        var data={
+            "chant":this.state.chant
+        }
+        xhr.open("post","/")
+        xhr.onreadystatechange=function(){
+            if(xhr.readyState==4){
+                if(xhr.status==200){
+               
+                console.log(xhr.responseText)
+                var result = JSON.parse(xhr.responseText)//转换成前端对象 用JSON
+                if(result.state==2){
+                    message.info("发送成功")
+                }else if(result.state==1){
+                    message.info("发送失败")
+                    this.props.history.push("/homepage1")
+                }
+               
+                }else{
+                    message.info(xhr.status)
+                }
+            }
+        }
+        //发送数据
+       xhr.setRequestHeader('content-type','application/json');
+        xhr.send(JSON.stringify(data))
+    }
     render(){
         return(
             <div className={Merchant.totalpage}>
@@ -33,8 +70,8 @@ export default class Merchant1 extends React.Component{
                             <div className={Merchant.header8}><Icon type="camera" style={{ fontSize: '30px', color: '#08c' }}/></div>
                             <div className={Merchant.header8}><Icon type="heart" style={{ fontSize: '30px', color: '#08c' }} /></div>
                             <div className={Merchant.header8}><Icon type="audio" style={{ fontSize: '30px', color: '#08c' }} /></div>
-                            <div className={Merchant.header9}><Button type="primary">发送</Button></div>
-                            <div className={Merchant.textarea}><textarea rows="6.7" cols="110"  maxlength="50" color="pink">请输入您想说的话</textarea></div>
+                            <div className={Merchant.header9}><Button onClick={this.merchant} type="primary">发送</Button></div>
+                            <div className={Merchant.textarea}><Input type="text" name="chant"value={this.state.chant} onChange={e=>this.changeValue(e)} style={{width:'915px'},{height:'100%'}} placeholder="请输入你想说的话"></Input></div>
                             
                            </div>
                     </div>
