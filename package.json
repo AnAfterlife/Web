@@ -6,7 +6,7 @@
   "proxy": "http://localhost:8080/",
   "dependencies": {
     "antd": "^3.19.8",
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "babel-plugin-import": "^1.13.0",
     "customize-cra": "^0.2.14",
     "fetch": "^1.1.0",
